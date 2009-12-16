@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+	<title></title>
+</head>
+
+<body>
+<!--Begin the help table-->	
+<table style="margin-top: 30px;" align="center" border="1" cellpadding="2" cellspacing="2" width="700">
+	<tbody><tr> 
+	<td colspan="3" class="moss"><a name="tips" id="tips"></a><div align="center"><a name="tips" id="tips">Search
+	Tips</a></div></td>
+	</tr>
+	
+	<tr> 
+	<td class="pageMainArea">&nbsp;</td>
+	<td class="pageMainArea">&nbsp;</td>
+	<td class="pageMainArea">Examples:</td>
+	</tr>
+	
+	<tr> 
+	<td class="moss">Adjacency</td>
+	<td class="pageMainArea" align="left">The order of words matters. Multiple words are searched together as one phrase.<br>
+	Note: If your search phrase contains any of these words: AND, OR, AND
+	NOT, BEFORE, AFTER, NEAR, or WITHIN, put quote marks around the phrase,
+	or it will not be searched as a phrase.
+	</td>
+	<td class="pageMainArea" align="left">United States supreme court<br>
+	"war and peace"
+	</td>
+	</tr>
+	
+	<tr> 
+	<td class="moss">Operators</td>
+	<td class="pageMainArea" align="left"><p>Use AND or OR to specify multiple words in any field and in any order.<br>Use AND NOT to exclude words.<br>
+	Parentheses group words together when using Boolean operators.
+	</p></td>
+	<td class="pageMainArea" align="left">(annotated bibliography) and
+	child*<br> 
+	<br>
+	(alaska or canada) and (adventure and not vacation)</td>
+	</tr>
+	
+	<tr> 
+	<td class="moss">&nbsp;</td>
+	<td class="pageMainArea" align="left">Use NEAR to retrieve records that
+	contain the specified words or phrases within ten words of each other
+	in the same indexed field.<br>
+	Use BEFORE and AFTER to retrieve records that contain the specified
+	words or phrases in a particular order in the record. Any number of
+	words can appear between the specified words or phrases.<br>
+	Use WITHIN to specify the maximum number of words that may appear between the specified words.</td>
+	<td class="pageMainArea" align="left" valign="top">California near
+	University<br><br>chester before arthur<br><br>fractal within 3 geometry</td>
+	</tr>
+	
+	<tr> 
+	<td class="moss">&nbsp;</td>
+	<td class="pageMainArea" align="left">Operators may be used in combination with selections from the operator pulldown menu (as indicated in brackets).</td>
+	<td class="pageMainArea" align="left">History [And]<br>
+	Naples or Napoli [And]<br> Borgia or Alexander</td>
+	</tr>
+	
+	<tr> 
+	<td class="moss">Wildcards</td>
+	<td class="pageMainArea" align="left">At least two characters must precede '*' or '**.'<br>
+	Use '*' to match up to five characters, starting at the specified position in the
+	word, and to truncate from one to five characters.<br>
+	Use '**' to match any number of characters, starting at the specified position in the word, 
+	and for open-ended truncation.<br>
+	You may also use a question mark ('?') to replace a 
+	single character anywhere within a word.
+	</td>
+	<td class="pageMainArea" align="left" valign="top">colo*r<br>environment*
+	polic*<br><br>inter**</td> 
+	</tr>
+	
+	<tr> 
+	<td class="moss">Field limits</td>
+	<td class="pageMainArea" align="left">Specify fields to search using the
+	Field pulldown menu (as indicated in brackets).</td>
+	<td class="pageMainArea" align="left" valign="top">[Author] Doctorow</td>
+	</tr></tbody></table>
+	<!--End the help table-->
+	
+	<!--Begin the help table-->
+	<table style="margin-top: 30px;" align="center" border="1" cellpadding="2" cellspacing="2" width="700">
+	<tbody><tr>
+	<td colspan="2" class="moss"><div align="center">Search and
+	Sort</div></td>
+	</tr>
+	
+	<tr>                                                                    
+	<td class="moss">Relevance<br></td>                                      
+	<td class="pageMainArea" align="left">
+	<ul>
+	<li>The relevance of each record is indicated by a display of 1-5 stars.</li>
+	<li>The system ranks the four indexed fields Title, Author, Subject, and Note in that order.</li>
+	<li>For searches on a single word, the system first applies the ranking
+	rule above. It then determines relevance based on one of the following
+	three rules:
+	<ul>
+	<li>Most relevant-- The word is one of the first eight words indexed for the same record.</li>
+	<li>Next most relevant-- The word is one of the first thirty-two words indexed for the same record.</li>
+	<li>Last most relevant-- The word is indexed more than once in the same record.</li>
+	</ul>
+	</li>
+	<li>For searches including more than one word, the system first applies
+	the ranking rule above. It then determines relevance based on one of
+	the following three rules:
+	<ul>
+	<li>Most relevant-- The first two words are very near one another in the index.</li>
+	<li>Next most relevant-- The first two words are near one another in the index.</li>
+	<li>Last most relevant-- The words are indexed more than once in the same record.</li>
+	</ul>
+	</li>
+	</ul>
+	</td>
+	</tr>                                                                   
+	</tbody></table>
+<!--End the help table-->
+</body>
+</html>

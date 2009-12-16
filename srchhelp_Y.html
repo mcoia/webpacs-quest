@@ -1,0 +1,154 @@
+<HTML>
+<HEAD>
+	<TITLE>Quest/ Quest Catalog</TITLE>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<!--<LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="http://quest.missouri.edu/screens/quest_styles.css">-->
+	<LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="quest_styles.css">
+	<meta http-equiv="Refresh" CONTENT="300;URL=http://quest.missouri.edu/search----->">
+</HEAD>
+
+<body style="margin-left: 0px; padding-left: 0px; margin-top: 10px; padding-top: 0px; margin-right: 0px; padding-right: 0px;"
+   onload="if (location.search.indexOf('SUBKEY') != -1 || location.search.indexOf('SEARCH') != -1 || location.search.indexOf('searcharg=') != -1 ) modifySearch(document.location.search); init_progsearch(); if (document.search) document.search.searchText1.focus();">
+
+<br />
+
+<!-- begin toplogo.html file -->
+<!--{toplogo}-->
+<br>
+<br>
+<!-- end toplogo.html file -->
+<!--{patron}-->
+<!--{logout}-->
+<!-- Silver Version, last changed: 9 April, 2004 -->
+<br>
+
+<div id="content">
+<!-- tabs bit -->
+<table align="center" cellpadding="0" cellspacing="0" width="800"><tr><td>
+		<ul id="tabnav">
+			<li><a href="/search~" class="active"><span>Search Catalog</span></a></li>
+			<li><a href="/search~/r"><span>Course Reserves</span></a></li>
+			<li><a href="/patroninfo"><span>&nbsp;&nbsp;&nbsp;My Account&nbsp;&nbsp;&nbsp;</span></a></li>
+			<li><a href="http://mobius.umsystem.edu/search"><span>Mobius Catalog</span></a></li>
+			<li><a href="/screens/help.htm"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Help&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a></li>			
+		</ul>
+</td></tr></table>
+<!-- end tabs -->
+  <table bgcolor="#66498B" height="12" width="800" align="center">
+	<tr>
+	    <td width="133.3333" class="subtab">Keyword</a></td>
+		<td width="133.3333" class="footer"><a href="/search~/t" class="specialLink">Title</a></td>
+		<td width="133.3333" class="footer"><a href="/search~/a" class="specialLink">Author</a></td>
+		<td width="133.3333" class="footer"><a href="/search~/s" class="specialLink">Journal Title</a></td>
+		<td width="133.3333" class="footer"><a href="/search~/d" class="specialLink">Subject</a></td>
+		<td width="133.3333" class="footer"><a href="/search~/n" class="specialLink">Numbers</a></td>		
+	</tr>
+</table>
+  <br />
+	<table align="center" class="textFix"><tr><td valign="top">
+<table border="0" align="center">
+<tr>
+<td colspan="3" class="pageMainAreaHeader"><b>Keyword Search:</b></td>
+</tr>
+<tr>
+<td colspan="3">
+<!--{msg}-->
+<!--{spellcheck}-->
+<!-- Note: if you use a character set other than utf-8, change the charset declaration in the enctype attribute below accordingly. -->
+<!--{advancedsearchformbegin}-->
+<p>
+Please fill in one or more boxes, select optional limits, and click Submit. See search tips below for more info.
+</p>
+<!--{advancedsearch}-->
+
+<p>
+<input type="hidden" name="startLimit" />
+</p>
+<table border="0">
+<tr>
+<td align="left" valign="top">
+
+<p>
+<!--{availlim}-->
+</p>
+<!--{sort}-->
+<!--{lang}-->
+<!--{publish}-->
+
+</td>
+<td align="left" valign="top">
+
+<p>
+Location:
+<!--{scope}-->
+
+
+<!--{DOCDATE}-->
+<table border="0">
+<tr><td>Material Type:</td><td><select name="m">
+<option value="">ANY</option>
+<option value="a">BOOK OR JRNL</option>
+<option value="g">VIDEO OR FILM</option>
+<option value="j">MUSIC RECORDNG</option>
+<option value="c">MUSIC SCORE</option>
+<option value="i">SPOKEN RECRDNG</option>
+<option value="t">THESIS OR MSS</option>
+<option value="o">KIT</option>
+<option value="r">OBJECT OR GAME</option>
+<option value="k">CHART OR PIC</option>
+<option value="e">MAP OR ATLAS</option>
+<option value="m">ELECTRONIC RES</option>
+<option value="b">ARCHIVAL MAT'L</option>
+<option value="2">EBOOK</option>
+</select>
+<a href="/screens/MoreInfo.html" TARGET="_blank"><strong>More Info</strong></a>
+</td>
+</tr></table>
+
+</p>
+
+</td>
+</tr>
+</table>
+
+<input type="hidden" name="endLimit" />
+
+<form method="get"  ACTION="/search/Y">
+	<table align="center">
+		<tr>
+			
+			<td>
+				<input id="iiiFormHandle_1" type="hidden">
+				<input type="image" src="/screens/b_submit.gif" alt="Submit Form"></input></a>
+			</td>
+			<td><a href="/search~"><img src="/screens/b_newsrch.gif" border="0" alt="Startover"></a></td>
+		</tr>
+	</table>
+	</form>
+
+<!--{advancedsearchformend}-->
+</td></tr></table>
+</td><!--<td valign="top"></td>--></tr></table>
+
+	
+	</div>
+	<!-- end tabs -->
+		<!--End the main content table-->
+		
+</div>
+
+<center><a href="/screens/SearchTips.html" TARGET="_blank"><strong>Search Tips</strong></a></center>
+<br />
+<!-- begin botlogo.html file -->
+<table bgcolor="#66498B" height="12" width="800" align="center">
+	<tr>
+		<td width="175" class="footer"><a href="/search~S1" class="specialLink">Central Methodist University</a></td>
+		<td width="175" class="footer"><div align="center"><a href="/search~S3" class="specialLink">Missouri Valley College</a></div></td>
+		<td width="175" class="footer"><div align="center"><a href="/search~S4" class="specialLink">State Fair Community College</a></div></td>
+		<td width="175" class="footer"><div align="right"><a href="/search~S2" class="specialLink">University of Central Missouri</a></div></td>
+	</tr>	
+</table>
+<!-- end botlogo.html file -->
+<br />
+</body>
+</html>

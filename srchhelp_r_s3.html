@@ -1,0 +1,118 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><!-- Silver Version, last changed: 28 June, 2004 -->
+
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+<LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="quest_styles.css">	
+</head>
+
+<body style="margin-left: 0px; padding-left: 0px; margin-top: 10px; padding-top: 0px; margin-right: 0px; padding-right: 0px;"
+     onLoad="document.forms[0].SEARCH.focus(); document.forms[0].SEARCH.select();">
+<br/>
+<!-- begin toplogo.html file -->
+<!--{toplogo}-->
+<br>
+<br>
+<!-- end toplogo.html file -->
+<!--{patron}-->
+<!--{logout}-->
+<!-- begin botlogo.html file -->
+<!-- Silver Version, last changed: 9 April, 2004 -->
+<!--Begin the bottom logo table-->
+<!--TIP: this data should match the data used by the BOTLOGO web option-->
+<br>
+
+<div id="content">
+<!-- tabs bit -->
+  <table align="center" cellpadding="0" cellspacing="0" width="800"><tr><td style="border-bottom:10px solid #66498B; ">
+		<ul id="tabnav">
+			<li><a href="/search~S3"><span>Search Catalog</span></a></li>
+			<li><a href="/search~S3/r" class="active"><span>Course Reserves</span></a></li>
+			<li><a href="/patroninfo~S3"><span>&nbsp;&nbsp;&nbsp;My Account&nbsp;&nbsp;&nbsp;</span></a></li>
+			<li><a href="http://mobius.umsystem.edu/search"><span>Mobius Catalog</span></a></li>
+			<li><a href="/screens/help_s3.htm"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Help&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a></li>			
+		</ul>
+  </td></tr></table>
+<!-- end tabs bit -->  
+		
+	<br/>
+		
+	<table align="center" cellpadding="2" cellspacing="2" width="700">
+	<tbody><tr>
+	<td colspan="3" class="text">
+	<!--Beginning main page content-->
+	
+	<div style="margin-bottom: 50px;">
+	<form method="get" id="search" name="search" action="/search/r">
+	<table border="0" cellpadding="2" cellspacing="0" width="70%">
+	<tbody><tr>
+	<td align="right" nowrap="nowrap" width="200"><label for="label2">Course name:&nbsp; </label></td>
+	<td nowrap="nowrap">
+	<input name="SEARCH" size="48" value="" type="text">
+	<script language="javascript">
+	function iiiDoSubmit_1() {
+		var name = "iiiFormHandle_1";
+		if (document.getElementById)
+			obj = document.getElementById(name);
+		else if (document.all)
+			obj = document.all[name];
+		else if (document.layers)
+			obj = document.layers[name];
+		obj.form.submit();
+	}
+	if (document.layers)
+	  document.captureEvents(Event.KEYDOWN);
+	document.onkeydown =
+	  function (evt) {
+		var keyCode = evt ? (evt.which ? evt.which : evt.keyCode) : event.keyCode;
+		if (keyCode == 13)
+		  iiiDoSubmit_1(); };
+	</script></td>
+	<td><input id="iiiFormHandle_1" type="hidden">
+      <input type="image" src="/screens/b_submit.gif" alt="Submit Form"></td>
+	</tr>
+	</tbody></table>
+	</form>
+	
+	<form method="get" id="search2" name="search2" action="/search/p">
+	<table align="left" border="0" cellpadding="2" cellspacing="0" width="70%">
+	<tbody><tr>
+	<td align="right" nowrap="nowrap" width="200"><label for="label3"><strong>or</strong> Instructor's last&nbsp;name:&nbsp;</label></td>
+	<td nowrap="nowrap">
+	<input name="SEARCH" size="48" value="" type="text">
+	</td>
+	<td><input id="iiiFormHandle_2" type="hidden">
+	  <input type="image" src="/screens/b_submit.gif" alt="Submit Form"></td>
+	</tr>
+	</tbody></table>
+	</form>
+	</div>
+	
+	<br><br>
+	
+	<div class="content">
+	<p>Type the <strong>Course Name or Number</strong> you want. Examples: <em> Biology 100A</em>, <em> Chemistry 251</em>, <em> Organic Chemistry I</em>, <em> History 101C</em>, <em> Western Civilization</em>.</p>
+	
+	<p>OR, type the <strong>Name</strong> of the Professor or Instructor you want, last name first.  Examples: <em>Ogden</em> or <em> Ogden, Linda</em>; <em> Ruehlmann</em> or <em> Ruehlmann, Thomas</em>.</p>
+	</div>
+	
+	<br>
+	
+	<!--End of main page content-->
+	</td>
+	</tr>
+	</tbody></table>	
+
+</div>
+ 
+<table bgcolor="#66498B" height="12" width="800" align="center">
+	<tr>
+		<td width="175" class="footer"><a href="/search~S1" class="specialLink">Central Methodist University</a></td>
+		<td width="175" class="footer"><div align="center"><a href="/search~S3" class="specialLink">Missouri Valley College</a></div></td>
+		<td width="175" class="footer"><div align="center"><a href="/search~S4" class="specialLink">State Fair Community College</a></div></td>
+		<td width="175" class="footer"><div align="right"><a href="/search~S2" class="specialLink">University of Central Missouri</a></div></td>
+	</tr>
+</table>
+<!--End the bottom logo table-->
+<!-- end botlogo.html file -->
+
+</body>
+</html>
