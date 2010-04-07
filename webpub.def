@@ -43,27 +43,27 @@ b|s||-4|Series||b|
 b|n|504|-z|Bibliography||b|
 b|n|508|-z|Credits||b|
 b|n|510|-z|||b|
-b|n|^5110|-z|Note||b|
-b|n|^5111|-z|Cast||b|
-b|n|^5112|-z|Presenter||b|
-b|n|^5113|-z|Narrator||b|
-b|n|^5200|-z|Subject||b|
-b|n|^5201|-z|Review||b|
-b|n|^5202|-z|Scope And Content||b|
-b|n|^5203|-z|Abstract||b|
-b|n|^520|-z|Summary||b|
-b|n|^521 |-z|Audience||b|
-b|n|^5211|-z|Age Level||b|
-b|n|^5212|-z|Audience||b|
-b|n|^5213|-z|Audience||b|
-b|n|^5214|-z|Audience||b|
-b|n|^5260|-z|Rdng Program||b|
+b|n|5110|-z|Note||b|
+b|n|5111|-z|Cast||b|
+b|n|5112|-z|Presenter||b|
+b|n|5113|-z|Narrator||b|
+b|n|5200|-z|Subject||b|
+b|n|5201|-z|Review||b|
+b|n|5202|-z|Scope And Content||b|
+b|n|5203|-z|Abstract||b|
+b|n|520|-z|Summary||b|
+b|n|521 |-z|Audience||b|
+b|n|5211|-z|Age Level||b|
+b|n|5212|-z|Audience||b|
+b|n|5213|-z|Audience||b|
+b|n|5214|-z|Audience||b|
+b|n|5260|-z|Rdng Program||b|
 b|n|533|-z|Format||b|
 b|n|555|-z|Indexes||b|
 b|n|586|-z|Awards||b|
 b|n|59[0-9]|-z|Local Note||b|
 b|n||-z|Note||b|
-b|x|^7801|-7|||b|
+b|x|7801|-7|||b|
 b|x|78001|-7|Cont.In Part||b|
 b|x|78002|-7|Supersedes||b|
 b|x|78003|-7|Supersedes Part||b|
@@ -85,12 +85,12 @@ b|z||-7|Cont'd By||b|
 b|q||-7|Related To||b|
 b|d||-2346|LC SUBJECT||b|
 b|m||-2346|Child Subj||b|
-b|j|^600.[2-8]|-2346|Keywords||b|
-b|j|^610.[2-8]|-2346|Keywords||b|
-b|j|^611.[2-8]|-2346|Keywords||b|
-b|j|^630.[2-8]|-2346|Keywords||b|
-b|j|^650.[2-8]|-2346|Keywords||b|
-b|j|^651.[2-8]|-2346|Keywords||b|
+b|j|600.[2-8]|-2346|Keywords||b|
+b|j|610.[2-8]|-2346|Keywords||b|
+b|j|611.[2-8]|-2346|Keywords||b|
+b|j|630.[2-8]|-2346|Keywords||b|
+b|j|650.[2-8]|-2346|Keywords||b|
+b|j|651.[2-8]|-2346|Keywords||b|
 b|j|653|-2346|Keywords||b|
 b|j|654|-2346|Keywords||b|
 b|j|655.7|-2346|Genre/Form||b|
@@ -103,14 +103,14 @@ b|j|753|-2346|Keywords||b|
 b|j|754|-2346|Keywords||b|
 b|j|755|-2346|Phys Charac||b|
 b|j||-2346|Add Keyword||b|
-b|b|^700.2|-345|Includes||b|
-b|b|^700|-345|Other Author||b|
-b|b|^710.2|-345|Includes||b|
-b|b|^710|-345|Other Author||b|
-b|b|^711.2|-345|Includes||b|
-b|b|^711|-345|Other Author||b|
-b|b|^730.2|-345|Includes||b|
-b|b|^740.2|-345|Includes||b|
+b|b|700.2|-345|Includes||b|
+b|b|700|-345|Other Author||b|
+b|b|710.2|-345|Includes||b|
+b|b|710|-345|Other Author||b|
+b|b|711.2|-345|Includes||b|
+b|b|711|-345|Other Author||b|
+b|b|730.2|-345|Includes||b|
+b|b|740.2|-345|Includes||b|
 b|b||-345|Add Author||b|
 b|u|130|-6789|Uniform Title||b|
 b|u|210|-6789|Other Title||b|
@@ -118,27 +118,27 @@ b|u|212|-6789|Other Title||b|
 b|u|229|-6789|||b|
 b|u|242|-6789|Translation||b|
 b|u|243|-6789|Other Title||b|
-b|u|^246.1|-6789|Other Title||b|
-b|u|^246.2|-6789|Other Title||b|
-b|u|^246.3|-6789|Other Title||b|
-b|u|^246.4|-6789|Cover Title||b|
-b|u|^246.5|-6789|Other Title||b|
-b|u|^246.6|-6789|Caption Title||b|
-b|u|^246.7|-6789|Running Title||b|
-b|u|^246.8|-6789|Spine Title||b|
+b|u|246.1|-6789|Other Title||b|
+b|u|246.2|-6789|Other Title||b|
+b|u|246.3|-6789|Other Title||b|
+b|u|246.4|-6789|Cover Title||b|
+b|u|246.5|-6789|Other Title||b|
+b|u|246.6|-6789|Caption Title||b|
+b|u|246.7|-6789|Running Title||b|
+b|u|246.8|-6789|Spine Title||b|
 b|u|24700|-6789|Other Title||b|
 b|u|24701|-6789|||b|
 b|u|24710|-6789|Other Title||b|
 b|u|24711|-6789|||b|
-b|u|^730|-6789|Other Title||b|
-b|u|^740|-6789|Other Title||b|
+b|u|730|-6789|Other Title||b|
+b|u|740|-6789|Other Title||b|
 b|u||-6789|Add Title||b|
 b|f|970|-6|||b|
 b|f||-6|Contents||b|
 b|i|020|-c6|ISBN||b|
 b|i|022|-c6|ISSN||b|
-b|i|^024|-c6|Standard #||b|
-b|i|^0242|-c6|Ismn||b|
+b|i|024|-c6|Standard #||b|
+b|i|0242|-c6|Ismn||b|
 b|i|027|-c6|Tech Rept #||b|
 b|i|028|-c6|Publishers #||b|
 b|i|030|-c6|Coden #||b|
