@@ -1,298 +1,578 @@
-BOOKINGS=no|false|true
-#***************************************************************************
-#***************************************************************************
-#  PLEASE DO NOT EDIT THE WWWOPTIONS WITHOUT CHECKING WITH FOLKS WHO WORK 
-#  ON THE WEBPACS, OR YOUR CHANGES MAY BE OVERWRITTEN!!!!!!!!!!!!  040617
-#***************************************************************************
-#***************************************************************************
-#
-##############################################################################
-#
-# WWWOptions file for: Quest / MOBCW
-#             Updated:  090406 ahd      LIVE
-#
-##############################################################################
-#
-# WARNING! Please ensure that you are the *only* user modifying this file.
-# If more than one user simultaneously edits this file...
-# YOUR CHANGES MAY NOT BE SAVED!
-#
-##############################################################################
-#
-# These are the rules for modifying this file:
-#
-# 1) BEFORE you begin, please copy the complete text of this WWWOptions file
-#    and include it as part of your ticket.
-#
-# 2) You MUST indicate in this header file what you changed, when you
-#    changed it, why this change was necessary, who you are, and a tracking
-#    number for your change (i.e. a MCO Remedy ticket number).
-#
-# 3) Do not paste large amounts of text into this file. In particular, avoid
-#    pasting long lines of text (i.e. text which will wrap).
-#
-# 4) Use Carriage Returns when editing long lines. Avoid wrapping lines.
-#
-# 5) AFTER you are done modifying this file, please copy the complete text of
-#    this WWWOptions file and include it as part of your ticket, before you
-#    close the ticket.
-#
-##############################################################################
-#
-# Revision Log: please note your revision in this log, even if it seems minor.
-#
-# BEGIN ALL LINES WITH A #, which is the comment character.
-#
-# Date       Your Initials - change description - Remedy Ticket Number
-#
-# 09/27/01 RK Comment Header added to file
-# 10/10/01 HJP Added toplogo, botlogo entries, revised button entries
-# 12/03/01 HJP Removed Request button
-# 01/08/02 HJP Put Request button back
-# 02/11/02 HJP Added journal title (s) search to dropdown
-# 06/07/02 MCS Commented out two new buttons - MCO-005321
-# 02/14/2003 GLH Added SSL option
-# 05/19/03 LEE Increase timeout to 15 minutes
-# 06/13/03 JNG Removed frames by changing FRAMEURL from 20 to 0 (MCO-007231)
-# 08/27/03 CAG Changed INNREACH per III (MCO-007529)
-# 02/06/04 JD  Changed media icon for ebook from @ to 2
-# 08/12/04 JSB	Added clickable location codes for Missouri Valley (MCO-008839)
-# 07/29/05 JNG Added My Millennium Options (MCO-010036)
-# 06/12/08 AHD Added PTYPE 29 to My Millennium options (MCO-013224)
-# 07/28/08 AHD Added ICON_SAVEMARKED, SAVEALLPAGE, and LOCATEINRESULTS.
-##############################################################################
-#***************************************************************************
-#***************************************************************************
-#  PLEASE DO NOT EDIT THE WWWOPTIONS WITHOUT CHECKING WITH FOLKS WHO WORK 
-#  ON THE WEBPACS, OR YOUR CHANGES MAY BE OVERWRITTEN!!!!!!!!!!!!  040617
-#***************************************************************************
-#***************************************************************************
-
-#SSL
-SSLPORT=80:443:quest.lso.umsystem.edu:quest.mobius.umsystem.edu|80:443:quest.missouri.edu:quest.mobius.umsystem.edu|2082:444:quest.lso.umsystem.edu:quest.mobius.umsystem.edu|2082:444:quest.missouri.edu:quest.mobius.umsystem.edu
-#SSLPORT=80:443
-
-# AVS/AKS Options
-AVS_TAG=XY
-ASSEARCH=1
-
-# General Display and Logging Options
-BODYPARAM=BGCOLOR=#EEE8CD LINK=#003399 VLINK=#003399
-CLEAR_PRIVATE_INFO=true
-STATGROUP=login
-TIMEOUT=900;URL=/search
-TOPLOGO=@screens/toplogo.html
-TOPLOGO1=@screens/toplogo_s1.html
-TOPLOGO2=@screens/toplogo_s2.html
-TOPLOGO3=@screens/toplogo_s3.html
-TOPLOGO4=@screens/toplogo_s4.html
-BOTLOGO=@screens/botlogo.html
-
-# Scope Controls
-LOCKSCOPE=no
-# Do NOT use LOCKSCOPE
-RESET_SCOPE=yes
-# RESET_SCOPE controls whether a scope is reset when the user
-# clicks 'New Search'
-
-# OPAC Display and Behavior Options
-BOOK_CAL_AVAIL=black
-BOOK_CAL_BKGRD=white
-BOOK_CAL_CLOSE=red
-BOOK_CAL_UNAVAIL=blue
-# BRIEF=P
-# BROWSE_d=6xxBROWSE=245/abc/h
+BOOKINGS=no|false|true
+
+#***************************************************************************
+
+#***************************************************************************
+
+#  PLEASE DO NOT EDIT THE WWWOPTIONS WITHOUT CHECKING WITH FOLKS WHO WORK 
+
+#  ON THE WEBPACS, OR YOUR CHANGES MAY BE OVERWRITTEN!!!!!!!!!!!!  040617
+
+#***************************************************************************
+
+#***************************************************************************
+
+#
+
+##############################################################################
+
+#
+
+# WWWOptions file for: Quest / MOBCW
+
+#             Updated:  090406 ahd      LIVE
+
+#
+
+##############################################################################
+
+#
+
+# WARNING! Please ensure that you are the *only* user modifying this file.
+
+# If more than one user simultaneously edits this file...
+
+# YOUR CHANGES MAY NOT BE SAVED!
+
+#
+
+##############################################################################
+
+#
+
+# These are the rules for modifying this file:
+
+#
+
+# 1) BEFORE you begin, please copy the complete text of this WWWOptions file
+
+#    and include it as part of your ticket.
+
+#
+
+# 2) You MUST indicate in this header file what you changed, when you
+
+#    changed it, why this change was necessary, who you are, and a tracking
+
+#    number for your change (i.e. a MCO Remedy ticket number).
+
+#
+
+# 3) Do not paste large amounts of text into this file. In particular, avoid
+
+#    pasting long lines of text (i.e. text which will wrap).
+
+#
+
+# 4) Use Carriage Returns when editing long lines. Avoid wrapping lines.
+
+#
+
+# 5) AFTER you are done modifying this file, please copy the complete text of
+
+#    this WWWOptions file and include it as part of your ticket, before you
+
+#    close the ticket.
+
+#
+
+##############################################################################
+
+#
+
+# Revision Log: please note your revision in this log, even if it seems minor.
+
+#
+
+# BEGIN ALL LINES WITH A #, which is the comment character.
+
+#
+
+# Date       Your Initials - change description - Remedy Ticket Number
+
+#
+
+# 09/27/01 RK Comment Header added to file
+
+# 10/10/01 HJP Added toplogo, botlogo entries, revised button entries
+
+# 12/03/01 HJP Removed Request button
+
+# 01/08/02 HJP Put Request button back
+
+# 02/11/02 HJP Added journal title (s) search to dropdown
+
+# 06/07/02 MCS Commented out two new buttons - MCO-005321
+
+# 02/14/2003 GLH Added SSL option
+
+# 05/19/03 LEE Increase timeout to 15 minutes
+
+# 06/13/03 JNG Removed frames by changing FRAMEURL from 20 to 0 (MCO-007231)
+
+# 08/27/03 CAG Changed INNREACH per III (MCO-007529)
+
+# 02/06/04 JD  Changed media icon for ebook from @ to 2
+
+# 08/12/04 JSB	Added clickable location codes for Missouri Valley (MCO-008839)
+
+# 07/29/05 JNG Added My Millennium Options (MCO-010036)
+
+# 06/12/08 AHD Added PTYPE 29 to My Millennium options (MCO-013224)
+
+# 07/28/08 AHD Added ICON_SAVEMARKED, SAVEALLPAGE, and LOCATEINRESULTS.
+
+##############################################################################
+
+#***************************************************************************
+
+#***************************************************************************
+
+#  PLEASE DO NOT EDIT THE WWWOPTIONS WITHOUT CHECKING WITH FOLKS WHO WORK 
+
+#  ON THE WEBPACS, OR YOUR CHANGES MAY BE OVERWRITTEN!!!!!!!!!!!!  040617
+
+#***************************************************************************
+
+#***************************************************************************
+
+
+
+#SSL
+
+SSLPORT=80:443:quest.lso.umsystem.edu:quest.mobius.umsystem.edu|80:443:quest.missouri.edu:quest.mobius.umsystem.edu|2082:444:quest.lso.umsystem.edu:quest.mobius.umsystem.edu|2082:444:quest.missouri.edu:quest.mobius.umsystem.edu
+
+#SSLPORT=80:443
+
+
+
+# AVS/AKS Options
+
+AVS_TAG=XY
+
+ASSEARCH=1
+
+
+
+# General Display and Logging Options
+
+BODYPARAM=BGCOLOR=#EEE8CD LINK=#003399 VLINK=#003399
+
+CLEAR_PRIVATE_INFO=true
+
+STATGROUP=login
+
+TIMEOUT=900;URL=/search
+
+TOPLOGO=@screens/toplogo.html
+
+TOPLOGO1=@screens/toplogo_s1.html
+
+TOPLOGO2=@screens/toplogo_s2.html
+
+TOPLOGO3=@screens/toplogo_s3.html
+
+TOPLOGO4=@screens/toplogo_s4.html
+
+BOTLOGO=@screens/botlogo.html
+
+
+
+# Scope Controls
+
+LOCKSCOPE=no
+
+# Do NOT use LOCKSCOPE
+
+RESET_SCOPE=yes
+
+# RESET_SCOPE controls whether a scope is reset when the user
+
+# clicks 'New Search'
+
+
+
+# OPAC Display and Behavior Options
+
+BOOK_CAL_AVAIL=black
+
+BOOK_CAL_BKGRD=white
+
+BOOK_CAL_CLOSE=red
+
+BOOK_CAL_UNAVAIL=blue
+
+# BRIEF=P
+
+# BROWSE_d=6xxBROWSE=245/abc/h
+
 # BROWSE_m=6xxBROWSE=245/abc/h
 
-BROWSE_t=245/abcnp/h|240|505/t
-DISPLAY_245=adtmjsl
-DISPLAY_856=zlm3
-# DISPLAY_SRCH=dmj
-DROP_DOWN=Ytasdmgioce
-EXTENDED_t=AT
-EXTENDED=T
-EXTENDED_c=BS
-FORM_FOCUS=true
-FRAMEURL=0
-HOLDINGS_POS=atpeR
-INDEX_EXT=c
-INNREACH=<img src="/screens/b_srchmobi.gif" border=0 alt="Search MOBIUS Union Catalog">@mobius.umsystem.edu(a=a;t=t;g=g;i=i;s=s;o=o;c=c;e=e;m=h;d=d;X=X;Y=Y)
-alt="Search MOBIUS Union Catalog">@mobius.missouri.edu(a=a;t=t;g=g;
-i=i;s=s;o=o;c=c;e=e;m=h;d=d;X=X;Y=Y)
-ITEM_NOTE=true
-#ITEMOUT_MSG
-# KEYWORD_COLOR=Y|all|#CC0000 style="background-color: #FFFF66"
-LINK856TEXT=Link to Web version:
-#LOC_ <may be used for special collections>
-MARC=yes
-MEDIA=2
-# NEWPIN_MSG=Please enter or create your PIN
-NOSEARCH=nubz
-OFFER_HISTORY=true
-PATRON_FIELDS=n
-# PATRON_MSG=y|Message from the library:
-PSTARTOVER=/search
-#RECORDFRAME <do not use>
-REQUEST=Request this title|denyiflocalavail|ask|yes
-REQUEST_INSTRUCTION=Any special instructions?
-SHOWOREC=no_cdate
-SIMILAR_ITEMS=true
-SORT_ITEMS=true
-# SPECIAL CHARACTERS=
-STARTOVER=/search
-#SUPPRESS_CARD <chose not to use>
-SUPPRESS_OPTION=email,ILL_home
-#SUPPRESS_YEAR
-XSTARTOVER=/search
-STYLESHEET=/screens/quest_styles.css
-
-# My Millennium Options
-MY_WEBPAC=F,T,PTYPEs 11-13,29
-NO_REVERIFY=req
-PREF_SEARCHES_11=30|Y
-PREF_SEARCHES_12=30|Y
-PREF_SEARCHES_13=30|Y
-PREFTEXT=SAVE THIS SEARCH?
-# RECORDFRAME_STAFF=NO
-STAFF=11,13,29
-MODIFY_PFLDS=z
-# STAFF=11,12,22,23,31,41,112
-
-# Encyclopedia Britannica Options
-# EBADDRESS=http://search.britannica.com/bcom/search/results/1,5843,,00.html?p_
-query0=%s
-# EBADDRESS=http://search.britannica.com/search?query=%s
-
-# Export Options
-BRIEF_EXPORT=a|t:245|p|e|
-BRIEF_EXPORT_CHKIN=h|n
-EMAILOP=Type your subject here|exporter|
-EXPORT_SELECT_TABLE=Sendto:browser,email,local|Format:full,brief
-
-# Patron Record Display and Behavior Options
-CANCEL_BOOKINGS=false
-FRAMEURL_PAT=50
-
-# MY_WEBPAC=true|false <no decision>
-
-# Z39.50 Options
-Z39BROADCAST=Z39.50 Broadcast Search:Please select the Z39.50 servers to which
-# you want to send your search=
-Z39MULTI=500:100
-
-ERESERVE=[0123456789]
-ERESERVE_PRINT_MESSAGE=Article has been sent to the system printer.
-
-# MATTYPE IMAGES
-IMAGE_MATTYPE-=/screens/i_book.gif
-IMAGE_MATTYPEa=/screens/i_book.gif
-IMAGE_MATTYPEc=/screens/i_musicscore.gif
-IMAGE_MATTYPEe=/screens/i_globe.gif
-IMAGE_MATTYPEg=/screens/i_movie.gif
-IMAGE_MATTYPEi=/screens/i_cassette.gif
-IMAGE_MATTYPEj=/screens/i_audiodisc.gif
-IMAGE_MATTYPEk=/screens/i_art.gif
-IMAGE_MATTYPEm=/screens/i_computerfile.gif
-IMAGE_MATTYPEr=/screens/i_chess.gif
-IMAGE_MATTYPE2=/screens/i_ebook.gif
-
-# OPTION BUTTONS
-BUT_ANOTHER=/screens/b_another.gif
-BUT_BIBEXPORT=/screens/b_bibexport.gif
-BUT_BOOKING=/screens/b_bookitem.gif
-BUT_BRIEF=/screens/b_brief.gif
-BUT_CARDFORM_BOX=/screens/b_boxdisp.gif
-BUT_CARDFORM_LIN=/screens/b_linedisp.gif
-BUT_CANCEL=/screens/b_cancel.gif
-BUT_CLEAR_MARKED=/screens/b_clrsaves.gif
-BUT_CLOSEWN=/screens/b_ret2cat.gif
-BUT_EMAIL=/screens/b_email.gif
-BUT_ENCYCPD=/screens/b_encycpd.gif
-BUT_EXPORT_VIEW_SAVES=/screens/b_exportlist.gif
-BUT_EXTENDED=/screens/b_extended.gif
-BUT_FULL_TEXT=/screens/b_fulltxt.gif
-BUT_ILL_CANCEL=/screens/b_illcan.gif
-BUT_ILL_FORM=/screens/b_illform.gif
-BUT_ILL_HOME=/screens/b_illano.gif
-BUT_LIMAVAIL=/screens/b_limavail.gif
-BUT_LIMIT=/screens/b_limit.gif
-BUT_LOGOUT=/screens/b_logout.gif
-BUT_MARC_DISPLAY=/screens/b_marcdisp.gif
-BUT_MODIFY=/screens/b_limit.gif
-BUT_NEWSRCH=/screens/b_newsrch.gif
-BUT_NEXTPAGE=/screens/b_nextpage.gif
-BUT_NEXTREC=/screens/b_nextrec.gif
-BUT_PLOGOUT=/screens/b_ret2pat.gif
-BUT_PREVPAGE=/screens/b_prevpage.gif
-BUT_PREVREC=/screens/b_prevrec.gif
-BUT_PREVSCRN=/screens/b_prevscrn.gif
-BUT_PUBLIC=/screens/b_public.gif
-BUT_REGULAR_DISPLAY=/screens/b_regdisp.gif
-BUT_REQUEST=/screens/b_request.gif
-BUT_RET2CAT=/screens/b_ret2cat.gif
-BUT_RET2CRS=/screens/b_ret2crs.gif
-BUT_RET2FEAT=/screens/b_ret2feat.gif
-BUT_RET2PREC=/screens/b_ret2pat.gif
-BUT_RETHOME=/screens/b_rethome.gif
-BUT_RTRNTB=/screens/b_rtrntb.gif
-BUT_SHOWSIM=/screens/b_showsimilar.gif
-BUT_STAFF=/screens/b_staff.gif
-BUT_STARTOVER=/screens/b_newsrch_large.gif
-BUT_UNLIMAVAIL=/screens/b_unlimavail.gif
-BUT_VIEW_SAVES=/screens/b_bookcart.gif
-BUT_WORDSRCH=/screens/b_wordsrch.gif
-BUT_Z39_ANOTHER=/screens/b_z39ano.gif
-BUT_Z39_REQUEST=/screens/b_request.gif
-BUT_Z39SEARCH=/screens/b_z39srch.gif
-
-# ICON Options
-ICON_CANCEL=<img src="/screens/b_cancel.gif" alt="Cancel" border="0" />
-ICON_SUBMIT=<img src="/screens/b_search.gif" alt="Search" border="0">
-ICON_SAVEMARKED=<img src="/screens/savemarked.gif" alt="Save marked records" border="0">
-ICON_SAVEALLPAGE=<img src="/screens/saveallpage.gif" alt="Save all on page" border="0"> 
-ICON_LOCATEINRESULTS=<img src="/screens/locateinresults.gif" alt="Locate in results" border="0">
-ICON_BOOKCART_SAVED=<IMG SRC="/screens/b_unmark.gif" ALT="Remove from Book Cart" BORDER=0>
-
-#LOCATION LINKS
-LOC_vapii=http://www.moval.edu/library1/maps/teacher_library_map.asp "target=_blank"
-LOC_vavii=http://www.moval.edu/library1/maps/teacher_library_map.asp "target=_blank"
-LOC_vacii=http://www.moval.edu/library1/maps/teacher_library_map.asp "target=_blank"
-LOC_vajii=http://www.moval.edu/library1/maps/teacher_library_map.asp "target=_blank"
-LOC_vaiii=http://www.moval.edu/library1/maps/teacher_library_map.asp "target=_blank"
-LOC_vmfii=http://www.moval.edu/library1/maps/murrell_f_floor_map.asp "target=_blank"
-LOC_vmvii=http://www.moval.edu/library1/maps/murrell_f_floor_map.asp "target=_blank"
-LOC_vmsii=http://www.moval.edu/library1/maps/murrell_f_floor_map.asp "target=_blank"
-LOC_vmxii=http://www.moval.edu/library1/maps/murrell_f_floor_map.asp "target=_blank"
-LOC_vmpci=http://www.moval.edu/library1/maps/murrell_f_floor_map.asp "target=_blank"
-LOC_vmvli=http://www.moval.edu/library1/maps/murrell_f_floor_map.asp "target=_blank"
-LOC_vmlii=http://www.moval.edu/library1/maps/murrell_f_floor_map.asp "target=_blank"
-LOC_vmrii=http://www.moval.edu/library1/maps/murrell_2_floor.asp "target=_blank"
-LOC_vmpii=http://www.moval.edu/library1/maps/murrell_2_floor.asp "target=_blank"
-LOC_vmmii=http://www.moval.edu/library1/maps/murrell_2_floor.asp "target=_blank"
-LOC_vmiii=http://www.moval.edu/library1/maps/murrell_2_floor.asp "target=_blank"
-
-# added for Pro
-BROWSE50=true
-WEBPUBDEF=true
-TABLEPARAM_BRIEFCIT=true|border="0" cellpadding="3" width="100%"
-ICON_REL_GROUP_1=<img src="/screens/relevance5.gif" alt="">&nbsp;Most relevant titles&nbsp;
-ICON_REL_GROUP_2=<img src="/screens/relevance4.gif" alt="">&nbsp;Highly relevant titles&nbsp;
-ICON_REL_GROUP_3=<img src="/screens/relevance3.gif" alt="">&nbsp;Very relevant titles&nbsp;
-ICON_REL_GROUP_4=<img src="/screens/relevance2.gif" alt="">&nbsp;Relevant titles&nbsp;
-ICON_REL_GROUP_5=<img src="/screens/relevance1.gif" alt="">&nbsp;Other relevant titles&nbsp;
-
-BIBIMAGE=http://www.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=ucmmob&showCaptionBelow=t|i|http://www.syndetics.com/index.aspx?isbn=%s/index.html&client=ucmmob&type=rn12
-BIBIMAGE_TEXT=Book Jacket
-
-#SPELLCHECK
-SPELLCHECK=<span class="spellcheckTool"><font size="+2"><strong>Did you mean %a?</strong></font></span> %s
-ICON_SPELLCHECK_MORE=<span class="spellcheckToolMore">more ;</span>
-ICON_SPELLCHECK_SEARCH=Search
-
-#READING HISTORY
-READING_HISTORY_DELETE=true
-ICON_READING_HISTORY=My Reading History
-ICON_READING_HISTORY_OPTIN=Opt In
-ICON_READING_HISTORY_OPTOUT=Opt Out
-ICON_PAT_DELETE_MARKED=Delete Marked
+BROWSE_t=245/abcnp/h|240|505/t
+
+DISPLAY_245=adtmjsl
+
+DISPLAY_856=zlm3
+
+# DISPLAY_SRCH=dmj
+
+DROP_DOWN=Ytasdmgioce
+
+EXTENDED_t=AT
+
+EXTENDED=T
+
+EXTENDED_c=BS
+
+FORM_FOCUS=true
+
+FRAMEURL=0
+
+HOLDINGS_POS=atpeR
+
+INDEX_EXT=c
+
+INNREACH=<img src="/screens/b_srchmobi.gif" border=0 alt="Search MOBIUS Union Catalog">@mobius.umsystem.edu(a=a;t=t;g=g;i=i;s=s;o=o;c=c;e=e;m=h;d=d;X=X;Y=Y)
+
+alt="Search MOBIUS Union Catalog">@mobius.missouri.edu(a=a;t=t;g=g;
+
+i=i;s=s;o=o;c=c;e=e;m=h;d=d;X=X;Y=Y)
+
+ITEM_NOTE=true
+
+#ITEMOUT_MSG
+
+# KEYWORD_COLOR=Y|all|#CC0000 style="background-color: #FFFF66"
+
+LINK856TEXT=Link to Web version:
+
+#LOC_ <may be used for special collections>
+
+MARC=yes
+
+MEDIA=2
+
+# NEWPIN_MSG=Please enter or create your PIN
+
+NOSEARCH=nubz
+
+OFFER_HISTORY=true
+
+PATRON_FIELDS=n
+
+# PATRON_MSG=y|Message from the library:
+
+PSTARTOVER=/search
+
+#RECORDFRAME <do not use>
+
+REQUEST=Request this title|denyiflocalavail|ask|yes
+
+REQUEST_INSTRUCTION=Any special instructions?
+
+SHOWOREC=no_cdate
+
+SIMILAR_ITEMS=true
+
+SORT_ITEMS=true
+
+# SPECIAL CHARACTERS=
+
+STARTOVER=/search
+
+#SUPPRESS_CARD <chose not to use>
+
+SUPPRESS_OPTION=email,ILL_home
+
+#SUPPRESS_YEAR
+
+XSTARTOVER=/search
+
+STYLESHEET=/screens/quest_styles.css
+
+
+
+# My Millennium Options
+
+MY_WEBPAC=F,T,PTYPEs 11-13,29
+
+NO_REVERIFY=req
+
+PREF_SEARCHES_11=30|Y
+
+PREF_SEARCHES_12=30|Y
+
+PREF_SEARCHES_13=30|Y
+
+PREFTEXT=SAVE THIS SEARCH?
+
+# RECORDFRAME_STAFF=NO
+
+STAFF=11,13,29
+
+MODIFY_PFLDS=z
+
+# STAFF=11,12,22,23,31,41,112
+
+
+
+# Encyclopedia Britannica Options
+
+# EBADDRESS=http://search.britannica.com/bcom/search/results/1,5843,,00.html?p_
+
+query0=%s
+
+# EBADDRESS=http://search.britannica.com/search?query=%s
+
+
+
+# Export Options
+
+BRIEF_EXPORT=a|t:245|p|e|
+
+BRIEF_EXPORT_CHKIN=h|n
+
+EMAILOP=Type your subject here|exporter|
+
+EXPORT_SELECT_TABLE=Sendto:browser,email,local|Format:full,brief
+
+
+
+# Patron Record Display and Behavior Options
+
+CANCEL_BOOKINGS=false
+
+FRAMEURL_PAT=50
+
+
+
+# MY_WEBPAC=true|false <no decision>
+
+
+
+# Z39.50 Options
+
+Z39BROADCAST=Z39.50 Broadcast Search:Please select the Z39.50 servers to which
+
+# you want to send your search=
+
+Z39MULTI=500:100
+
+
+
+ERESERVE=[0123456789]
+
+ERESERVE_PRINT_MESSAGE=Article has been sent to the system printer.
+
+
+
+# MATTYPE IMAGES
+
+IMAGE_MATTYPE-=/screens/i_book.gif
+
+IMAGE_MATTYPEa=/screens/i_book.gif
+
+IMAGE_MATTYPEc=/screens/i_musicscore.gif
+
+IMAGE_MATTYPEe=/screens/i_globe.gif
+
+IMAGE_MATTYPEg=/screens/i_movie.gif
+
+IMAGE_MATTYPEi=/screens/i_cassette.gif
+
+IMAGE_MATTYPEj=/screens/i_audiodisc.gif
+
+IMAGE_MATTYPEk=/screens/i_art.gif
+
+IMAGE_MATTYPEm=/screens/i_computerfile.gif
+
+IMAGE_MATTYPEr=/screens/i_chess.gif
+
+IMAGE_MATTYPE2=/screens/i_ebook.gif
+
+
+
+# OPTION BUTTONS
+
+BUT_ANOTHER=/screens/b_another.gif
+
+BUT_BIBEXPORT=/screens/b_bibexport.gif
+
+BUT_BOOKING=/screens/b_bookitem.gif
+
+BUT_BRIEF=/screens/b_brief.gif
+
+BUT_CARDFORM_BOX=/screens/b_boxdisp.gif
+
+BUT_CARDFORM_LIN=/screens/b_linedisp.gif
+
+BUT_CANCEL=/screens/b_cancel.gif
+
+BUT_CLEAR_MARKED=/screens/b_clrsaves.gif
+
+BUT_CLOSEWN=/screens/b_ret2cat.gif
+
+BUT_EMAIL=/screens/b_email.gif
+
+BUT_ENCYCPD=/screens/b_encycpd.gif
+
+BUT_EXPORT_VIEW_SAVES=/screens/b_exportlist.gif
+
+BUT_EXTENDED=/screens/b_extended.gif
+
+BUT_FULL_TEXT=/screens/b_fulltxt.gif
+
+BUT_ILL_CANCEL=/screens/b_illcan.gif
+
+BUT_ILL_FORM=/screens/b_illform.gif
+
+BUT_ILL_HOME=/screens/b_illano.gif
+
+BUT_LIMAVAIL=/screens/b_limavail.gif
+
+BUT_LIMIT=/screens/b_limit.gif
+
+BUT_LOGOUT=/screens/b_logout.gif
+
+BUT_MARC_DISPLAY=/screens/b_marcdisp.gif
+
+BUT_MODIFY=/screens/b_limit.gif
+
+BUT_NEWSRCH=/screens/b_newsrch.gif
+
+BUT_NEXTPAGE=/screens/b_nextpage.gif
+
+BUT_NEXTREC=/screens/b_nextrec.gif
+
+BUT_PLOGOUT=/screens/b_ret2pat.gif
+
+BUT_PREVPAGE=/screens/b_prevpage.gif
+
+BUT_PREVREC=/screens/b_prevrec.gif
+
+BUT_PREVSCRN=/screens/b_prevscrn.gif
+
+BUT_PUBLIC=/screens/b_public.gif
+
+BUT_REGULAR_DISPLAY=/screens/b_regdisp.gif
+
+BUT_REQUEST=/screens/b_request.gif
+
+BUT_RET2CAT=/screens/b_ret2cat.gif
+
+BUT_RET2CRS=/screens/b_ret2crs.gif
+
+BUT_RET2FEAT=/screens/b_ret2feat.gif
+
+BUT_RET2PREC=/screens/b_ret2pat.gif
+
+BUT_RETHOME=/screens/b_rethome.gif
+
+BUT_RTRNTB=/screens/b_rtrntb.gif
+
+BUT_SHOWSIM=/screens/b_showsimilar.gif
+
+BUT_STAFF=/screens/b_staff.gif
+
+BUT_STARTOVER=/screens/b_newsrch_large.gif
+
+BUT_UNLIMAVAIL=/screens/b_unlimavail.gif
+
+BUT_VIEW_SAVES=/screens/b_bookcart.gif
+
+BUT_WORDSRCH=/screens/b_wordsrch.gif
+
+BUT_Z39_ANOTHER=/screens/b_z39ano.gif
+
+BUT_Z39_REQUEST=/screens/b_request.gif
+
+BUT_Z39SEARCH=/screens/b_z39srch.gif
+
+
+
+# ICON Options
+
+ICON_CANCEL=<img src="/screens/b_cancel.gif" alt="Cancel" border="0" />
+
+ICON_SUBMIT=<img src="/screens/b_search.gif" alt="Search" border="0">
+
+ICON_SAVEMARKED=<img src="/screens/savemarked.gif" alt="Save marked records" border="0">
+
+ICON_SAVEALLPAGE=<img src="/screens/saveallpage.gif" alt="Save all on page" border="0"> 
+
+ICON_LOCATEINRESULTS=<img src="/screens/locateinresults.gif" alt="Locate in results" border="0">
+
+ICON_BOOKCART_SAVED=<IMG SRC="/screens/b_unmark.gif" ALT="Remove from Book Cart" BORDER=0>
+
+
+
+#LOCATION LINKS
+
+LOC_vapii=http://www.moval.edu/library/maps/teacher_library_map.php "target=_blank"
+LOC_vavii=http://www.moval.edu/library/maps/teacher_library_map.php "target=_blank"
+LOC_vacii=http://www.moval.edu/library/maps/teacher_library_map.php "target=_blank"
+LOC_vajii=http://www.moval.edu/library/maps/teacher_library_map.php "target=_blank"
+LOC_vaiii=http://www.moval.edu/library/maps/teacher_library_map.php "target=_blank"
+LOC_vmfii=http://www.moval.edu/library/maps/murrell_f_floor_map.php "target=_blank"
+LOC_vmvii=http://www.moval.edu/library/maps/murrell_f_floor_map.php "target=_blank"
+LOC_vmsii=http://www.moval.edu/library/maps/murrell_f_floor_map.php "target=_blank"
+LOC_vmxii=http://www.moval.edu/library/maps/murrell_f_floor_map.php "target=_blank"
+LOC_vmpci=http://www.moval.edu/library/maps/murrell_f_floor_map.php "target=_blank"
+LOC_vmvli=http://www.moval.edu/library/maps/murrell_f_floor_map.php "target=_blank"
+LOC_vmlii=http://www.moval.edu/library/maps/murrell_f_floor_map.php "target=_blank"
+LOC_vmrii=http://www.moval.edu/library/maps/murrell_2_floor.php "target=_blank"
+LOC_vmpii=http://www.moval.edu/library/maps/murrell_2_floor.php "target=_blank"
+LOC_vmmii=http://www.moval.edu/library/maps/murrell_2_floor.php "target=_blank"
+LOC_vmiii=http://www.moval.edu/library/maps/murrell_2_floor.php "target=_blank"
+
+
+
+# added for Pro
+
+BROWSE50=true
+
+WEBPUBDEF=true
+
+TABLEPARAM_BRIEFCIT=true|border="0" cellpadding="3" width="100%"
+
+ICON_REL_GROUP_1=<img src="/screens/relevance5.gif" alt="">&nbsp;Most relevant titles&nbsp;
+
+ICON_REL_GROUP_2=<img src="/screens/relevance4.gif" alt="">&nbsp;Highly relevant titles&nbsp;
+
+ICON_REL_GROUP_3=<img src="/screens/relevance3.gif" alt="">&nbsp;Very relevant titles&nbsp;
+
+ICON_REL_GROUP_4=<img src="/screens/relevance2.gif" alt="">&nbsp;Relevant titles&nbsp;
+
+ICON_REL_GROUP_5=<img src="/screens/relevance1.gif" alt="">&nbsp;Other relevant titles&nbsp;
+
+
+
+BIBIMAGE=http://www.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=ucmmob&showCaptionBelow=t|i|http://www.syndetics.com/index.aspx?isbn=%s/index.html&client=ucmmob&type=rn12
+
+BIBIMAGE_TEXT=Book Jacket
+
+
+
+#SPELLCHECK
+
+SPELLCHECK=<span class="spellcheckTool"><font size="+2"><strong>Did you mean %a?</strong></font></span> %s
+
+ICON_SPELLCHECK_MORE=<span class="spellcheckToolMore">more ;</span>
+
+ICON_SPELLCHECK_SEARCH=Search
+
+
+
+#READING HISTORY
+
+READING_HISTORY_DELETE=true
+
+ICON_READING_HISTORY=My Reading History
+
+ICON_READING_HISTORY_OPTIN=Opt In
+
+ICON_READING_HISTORY_OPTOUT=Opt Out
+
+ICON_PAT_DELETE_MARKED=Delete Marked
+
 ICON_PAT_DELETE_ALL=Delete All
