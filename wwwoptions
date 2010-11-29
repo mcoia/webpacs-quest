@@ -508,37 +508,37 @@ ICON_BOOKCART_SAVED=<IMG SRC="/screens/b_unmark.gif" ALT="Remove from Book Cart"
 
 #LOCATION LINKS
 
-LOC_vapii=http://www.moval.edu/library1/maps/teacher_library_map.asp "target=_blank"
+LOC_vapii=http://www.moval.edu/library1/maps/TeacherEd.pdf "target=_blank"
 
-LOC_vavii=http://www.moval.edu/library1/maps/teacher_library_map.asp "target=_blank"
+LOC_vavii=http://www.moval.edu/library/maps/TeacherEd.pdf "target=_blank"
 
-LOC_vacii=http://www.moval.edu/library1/maps/teacher_library_map.asp "target=_blank"
+LOC_vacii=http://www.moval.edu/library/maps/TeacherEd.pdf "target=_blank"
 
-LOC_vajii=http://www.moval.edu/library1/maps/teacher_library_map.asp "target=_blank"
+LOC_vajii=http://www.moval.edu/library/maps/TeacherEd.pdf "target=_blank"
 
-LOC_vaiii=http://www.moval.edu/library1/maps/teacher_library_map.asp "target=_blank"
+LOC_vaiii=http://www.moval.edu/library/maps/TeacherEd.pdf "target=_blank"
 
-LOC_vmfii=http://www.moval.edu/library1/maps/murrell_f_floor_map.asp "target=_blank"
+LOC_vmfii=http://www.moval.edu/library/maps/MurrellFirstFloor.pdf "target=_blank"
 
-LOC_vmvii=http://www.moval.edu/library1/maps/murrell_f_floor_map.asp "target=_blank"
+LOC_vmvii=http://www.moval.edu/library/maps/MurrellFirstFloor.pdf "target=_blank"
 
-LOC_vmsii=http://www.moval.edu/library1/maps/murrell_f_floor_map.asp "target=_blank"
+LOC_vmsii=http://www.moval.edu/library/maps/MurrellFirstFloor.pdf "target=_blank"
 
-LOC_vmxii=http://www.moval.edu/library1/maps/murrell_f_floor_map.asp "target=_blank"
+LOC_vmxii=http://www.moval.edu/library/maps/MurrellFirstFloor.pdf "target=_blank"
 
-LOC_vmpci=http://www.moval.edu/library1/maps/murrell_f_floor_map.asp "target=_blank"
+LOC_vmpci=http://www.moval.edu/library/maps/MurrellFirstFloor.pdf "target=_blank"
 
-LOC_vmvli=http://www.moval.edu/library1/maps/murrell_f_floor_map.asp "target=_blank"
+LOC_vmvli=http://www.moval.edu/library/maps/MurrellFirstFloor.pdf "target=_blank"
 
-LOC_vmlii=http://www.moval.edu/library1/maps/murrell_f_floor_map.asp "target=_blank"
+LOC_vmlii=http://www.moval.edu/library/maps/MurrellFirstFloor.pdf "target=_blank"
 
-LOC_vmrii=http://www.moval.edu/library1/maps/murrell_2_floor.asp "target=_blank"
+LOC_vmrii=http://www.moval.edu/library/maps/MurrellSecondFloor.pdf "target=_blank"
 
-LOC_vmpii=http://www.moval.edu/library1/maps/murrell_2_floor.asp "target=_blank"
+LOC_vmpii=http://www.moval.edu/library/maps/MurrellSecondFloor.pdf "target=_blank"
 
-LOC_vmmii=http://www.moval.edu/library1/maps/murrell_2_floor.asp "target=_blank"
+LOC_vmmii=http://www.moval.edu/library/maps/MurrellSecondFloor.pdf "target=_blank"
 
-LOC_vmiii=http://www.moval.edu/library1/maps/murrell_2_floor.asp "target=_blank"
+LOC_vmiii=http://www.moval.edu/library/maps/MurrellSecondFloor.pdf "target=_blank"
 
 
 
