@@ -508,7 +508,7 @@ ICON_BOOKCART_SAVED=<IMG SRC="/screens/b_unmark.gif" ALT="Remove from Book Cart"
 
 #LOCATION LINKS
 
-LOC_vapii=http://www.moval.edu/library1/maps/TeacherEd.pdf "target=_blank"
+LOC_vapii=http://www.moval.edu/library/maps/TeacherEd.pdf "target=_blank"
 
 LOC_vavii=http://www.moval.edu/library/maps/TeacherEd.pdf "target=_blank"
 
