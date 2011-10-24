@@ -294,7 +294,7 @@ STYLESHEET=/screens/quest_styles.css
 
 # My Millennium Options
 
-MY_WEBPAC=F,T,PTYPEs 11-13,29
+MY_WEBPAC=F,2,11-13,29
 
 NO_REVERIFY=req
 
@@ -676,8 +676,6 @@ STYLESHEET=/screens/quest_styles.css
 
 
 # My Millennium Options
-
-MY_WEBPAC=F,T,PTYPEs 11-13,29
 
 NO_REVERIFY=req
 
@@ -1240,8 +1238,6 @@ STYLESHEET=/screens/quest_styles.css
 
 
 # My Millennium Options
-
-MY_WEBPAC=F,T,PTYPEs 11-13,29
 
 NO_REVERIFY=req
 
