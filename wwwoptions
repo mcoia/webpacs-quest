@@ -140,7 +140,7 @@ BOOKINGS=no|false|true
 
 #SSL
 
-SSLPORT=80:443:quest.lso.umsystem.edu:quest.mobius.umsystem.edu|80:443:quest.missouri.edu:quest.mobius.umsystem.edu|2082:444:quest.lso.umsystem.edu:quest.mobius.umsystem.edu|2082:444:quest.missouri.edu:quest.mobius.umsystem.edu
+SSLPORT=80:443:quest.searchmobius.org:quest.searchmobius.org|80:443:quest.searchmobius.org:quest.searchmobius.org|2082:444:quest.searchmobius.org:quest.searchmobius.org|2082:444:quest.searchmobius.org:quest.searchmobius.org
 
 #SSLPORT=80:443
 
@@ -1080,14 +1080,6 @@ BOOKINGS=no|false|true
 #***************************************************************************
 
 #***************************************************************************
-
-
-
-#SSL
-
-SSLPORT=80:443:quest.lso.umsystem.edu:quest.mobius.umsystem.edu|80:443:quest.missouri.edu:quest.mobius.umsystem.edu|2082:444:quest.lso.umsystem.edu:quest.mobius.umsystem.edu|2082:444:quest.missouri.edu:quest.mobius.umsystem.edu
-
-#SSLPORT=80:443
 
 
 
