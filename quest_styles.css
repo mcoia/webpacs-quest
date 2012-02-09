@@ -161,4 +161,13 @@ a.specialLink:hover { color: #FFFF33; text-decoration:none}
 	background: #7C9CAF;
 	border-top: 1px solid #fff; /*Remove this to remove border between bar and tabs*/
 	}
+#redirectMessage {
+    margin:1em;
+    font-size:1.2em;
+    color:#6c0000;
+}
+
+#redirectMessage a {
+    font-weight:bold;
+}
 
