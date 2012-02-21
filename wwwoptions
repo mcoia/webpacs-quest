@@ -508,38 +508,37 @@ ICON_BOOKCART_SAVED=<IMG SRC="/screens/b_unmark.gif" ALT="Remove from Book Cart"
 
 #LOCATION LINKS
 
-LOC_vapii=http://www.moval.edu/library/maps/TeacherEd.pdf "target=_blank"
+LOC_vmrii=/screens/murrell1.pdf
 
-LOC_vavii=http://www.moval.edu/library/maps/TeacherEd.pdf "target=_blank"
+LOC_vmroi=/screens/murrell1.pdf
 
-LOC_vacii=http://www.moval.edu/library/maps/TeacherEd.pdf "target=_blank"
+LOC_vmrri=/screens/murrell1.pdf
 
-LOC_vajii=http://www.moval.edu/library/maps/TeacherEd.pdf "target=_blank"
+LOC_vmsii=/screens/murrell1.pdf
 
-LOC_vaiii=http://www.moval.edu/library/maps/TeacherEd.pdf "target=_blank"
+LOC_vmvii=/screens/murrell1.pdf
 
-LOC_vmfii=http://www.moval.edu/library/maps/MurrellFirstFloor.pdf "target=_blank"
+LOC_vmvli=/screens/murrell1.pdf
 
-LOC_vmvii=http://www.moval.edu/library/maps/MurrellFirstFloor.pdf "target=_blank"
+LOC_vmxii=/screens/murrell1.pdf
 
-LOC_vmsii=http://www.moval.edu/library/maps/MurrellFirstFloor.pdf "target=_blank"
+LOC_vscii=/screens/murrell1.pdf
 
-LOC_vmxii=http://www.moval.edu/library/maps/MurrellFirstFloor.pdf "target=_blank"
+LOC_vmaii=/screens/murrell2.pdf
 
-LOC_vmpci=http://www.moval.edu/library/maps/MurrellFirstFloor.pdf "target=_blank"
+LOC_vmfii=/screens/murrell2.pdf
 
-LOC_vmvli=http://www.moval.edu/library/maps/MurrellFirstFloor.pdf "target=_blank"
+LOC_vmiii=/screens/murrell2.pdf
 
-LOC_vmlii=http://www.moval.edu/library/maps/MurrellFirstFloor.pdf "target=_blank"
+LOC_vmkii=/screens/murrell2.pdf
 
-LOC_vmrii=http://www.moval.edu/library/maps/MurrellSecondFloor.pdf "target=_blank"
+LOC_vmlii=/screens/murrell2.pdf
 
-LOC_vmpii=http://www.moval.edu/library/maps/MurrellSecondFloor.pdf "target=_blank"
+LOC_vmmii=/screens/murrell2.pdf
 
-LOC_vmmii=http://www.moval.edu/library/maps/MurrellSecondFloor.pdf "target=_blank"
+LOC_vmpci=/screens/murrell2.pdf
 
-LOC_vmiii=http://www.moval.edu/library/maps/MurrellSecondFloor.pdf "target=_blank"
-
+LOC_vmpii=/screens/murrell2.pdf
 
 
 # added for Pro
@@ -1488,6 +1487,3 @@ ICON_READING_HISTORY_OPTIN=Opt In
 ICON_READING_HISTORY_OPTOUT=Opt Out
 
 ICON_PAT_DELETE_MARKED=Delete Marked
-
->>>>>>> Stashed changes
-ICON_PAT_DELETE_ALL=Delete All
