@@ -1168,7 +1168,7 @@ HOLDINGS_POS=atpeR
 
 INDEX_EXT=c
 
-INNREACH=<img src="/screens/b_srchmobi.gif" border=0 alt="Search MOBIUS Union Catalog">@searchmobius.org(a=a;t=t;g=g;i=i;s=s;o=o;c=c;e=e;m=h;d=d;X=X;Y=Y)
+INNREACH=<img src="/screens/b_srchmobi.gif" border=0 alt="Search MOBIUS Union Catalog">@searchmobius.org(a=a;c=c;d=d;e=e;g=g;i=i;l=l;m=h;o=o;s=s;t=t;X=X;Y=Y)
 
 alt="Search MOBIUS Union Catalog">@searchmobius.org(a=a;t=t;g=g;
 
