@@ -1,7 +1,7 @@
 .topLogoImage {
     padding: 8px 10px;
     position: relative;
-    z-index:999;
+    z-index:2;
     margin-bottom:-53px;
 }
 
