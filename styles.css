@@ -679,7 +679,7 @@ div .bibResourceSidebar { display:none; }
 .libinfoRight li {  }
 
 .linkBanner {
-    background:#BCCBBC;
+    background:#3A4A39;
     margin:0;
     position:relative;
     text-align:right;
@@ -688,11 +688,9 @@ div .bibResourceSidebar { display:none; }
     float:right;
     width:100%;
     z-index:998;
-    border-top:1px solid #8BA38B;
-    border-bottom:1px solid #8BA38B;
 }
 
-.linkBanner a {color: #323e34; font-weight:bold; text-decoration:none;}
+.linkBanner a {color: #FFFFFF; font-weight:bold; text-decoration:none;}
 
 .linkBanner .navLeft {float: left;}
 
