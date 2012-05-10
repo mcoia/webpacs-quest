@@ -1,10 +1,10 @@
 .topLogoImage {
-    padding: 8px 10px;
+    padding: 5px 10px;
     position: relative;
     z-index:2;
-    margin-bottom:-53px;
+    margin-bottom:-50px;
 }
 
 .mobiusLogo {
-    top:40px;
+    top:30px;
 }
