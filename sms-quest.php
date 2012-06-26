@@ -31,7 +31,7 @@ $item 			= "\nLoc: ".$location."\nCall: ".$callNumber;
 //echo "document.write('Debug: ".$location." ".$callNumber."');";
 
 //Change this url to your own catalog
-$url = "http://mcotrain.umsystem.edu/record=".$bib;
+$url = "http://quest.searchmobius.org/record=".$bib;
 
 //Use the bib number to get the title information for the item from the catalog
 $catalogItemPage = get_url_contents($url);
@@ -46,8 +46,8 @@ if(!strstr($catalogItemPage, $callNumber) || !strstr($catalogItemPage, $location
 }
 
 //defined variables. Set the from address and subject as desired
-$fromAddress 	= 'NoReply@mcotrain.umsystem.eduedu';
-$subject 		= "Training Library Catalog";
+$fromAddress 	= 'NoReply@quest.searchmobius.org';
+$subject 		= "Quest Library Catalog";
 
 $providers = array(	'att' 	        => '@txt.att.net',
              		'northwest' 	=> '@mynwcell.com',
