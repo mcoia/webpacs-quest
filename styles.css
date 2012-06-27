@@ -698,6 +698,8 @@ div .bibResourceSidebar { display:none; }
 
 .linkBanner .navRight {float: right;}
 
+.linkBanner .navRight ul li:first-child{ margin-right:3em; }
+
 .linkBanner .navLeft ul li {margin-left: 0; margin-right:2em;}
 
 .linkBanner ul {list-style-type:none; margin: 0; padding: 0 1.2em;}
@@ -734,7 +736,15 @@ div .bibResourceSidebar { display:none; }
 
 .miscButtons { margin-bottom: 1em;}
 
-.mobiusLogo, .clusterLogo { position:absolute; right:25px; top:16px;}
+.mobiusLogo { position:absolute; right:25px; top:16px;}
+
+.clusterLogoLeft, .clusterLogoRight { position:absolute; top:4px; width:152px; }
+
+.clusterLogoLeft { right:152px;  z-index:2; }
+
+.clusterLogoRight { right: 0px; }
+
+.clusterLogo img { display:inline; }
 
 .msg td { padding-top:3px; }
 
@@ -1073,11 +1083,11 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 .topLogo { z-index:3}
 
-.topLogo img { border:0; display:block; margin-left:auto; margin-right:auto }
+.topLogo img { border:0; margin-left:auto; margin-right:auto }
 
 .topLogoImage { padding:20px 10px;}
 
-.topLogoImage, .mobiusLogo, .clusterLogo {width:250px;}
+.topLogoImage, .mobiusLogo {width:250px;}
 
 .topLinks { float: right; height: auto; margin:0; padding:0; width: 50%; }
 
