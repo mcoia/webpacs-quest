@@ -1,5 +1,7 @@
 .clusterLogo { position:absolute; }
 
+.linkBanner .navRight ul li:first-child { margin-right:0em; }
+
 .topLogoImage {
     padding: 5px 10px;
     position: relative;
