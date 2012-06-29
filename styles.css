@@ -203,7 +203,7 @@ a:hover  { color: #7C14B8; }
 
 .bibDisplayItemsMain, .resourceLicenseArea { width:100%; }
 
-.bibDisplayJacket  { float:left; margin:0 0 1em 5%; display:inline; width:6em; }
+.bibDisplayJacket  { float:left; margin:0 0 1em 0; display:inline; width:150px; text-align:center; }
 
 .bibLinks th { text-align:center; }
 
@@ -356,7 +356,7 @@ div.bookingsVerify { padding:0; margin-top:18px; }
 
 .briefcitMark { float:right; }
 
-.briefcitMedia, .bibMedia, .briefcitResourceMedia, .briefcitProgramMedia, td.browseEntryMedia, td.browseSubEntryMedia { color:#878787; font-size:.7em; line-height:.95em; margin-top:6em; overflow:hidden; width:41px; text-align:center; }
+.briefcitMedia, .bibMedia, .briefcitResourceMedia, .briefcitProgramMedia, td.browseEntryMedia, td.browseSubEntryMedia { color:#878787; font-size:.7em; line-height:.95em; margin-top:30px; overflow:hidden; width:41px; text-align:center; }
 
 .briefcitResourceMedia, .briefcitProgramMedia { margin-top:3em; }
 
@@ -902,6 +902,10 @@ td.progInfoLabel { color:#767C70; font-weight:bold; padding-right:25px; text-ali
 .popupContentInner { padding-top: 10px; padding-bottom:20px; }
 
 .popupFormHeading, .barePageHeading  { margin-top:0px; }
+
+#qr { text-align:center; height:150px; }
+
+#qrChoice div { margin-bottom:1em; }
 
 .rateHelp td { padding: 0 8px 8px 0; }
 
