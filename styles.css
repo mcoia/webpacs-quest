@@ -1035,13 +1035,13 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 #searchNavMenu { margin:0; text-align:right; }
 
-.searchNavBut { vertical-align:bottom; margin:3px 10px 3px 5px; }
+.searchNavBut { vertical-align:bottom; }
 
 #skipNav a, #cproSkipNav a:hover, #cproSkipNav a:visited { position:absolute; left:0px; top:-5000px; width:1px; height:1px; overflow:hidden; }
 
 #skipNav a:active, #skipNav a:focus { position:static; width:auto; height:auto; margin-bottom:3px; background:#FFFFFF; }
 
-#specializedSearch { vertical-align:bottom; margin-bottom:3px; }
+#specializedSearch { vertical-align:bottom; }
 
 .submitHidden { position:absolute; left:-999px; top:-999px; }
 
@@ -1155,7 +1155,7 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 #topMyLibraryHeader { float:left; }
 
-div#searchNavMenu { clear:both; float:right; background:#3B77B6; width:100%; }
+div#searchNavMenu { clear:both; float:right; width:100%; }
 
 /*Special treatment for IE6, using the JS-activated "li.over"*/
 #toplogoMoreNav li.over ul { margin:0; }
