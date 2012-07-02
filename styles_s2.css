@@ -12,7 +12,7 @@
 
 .linkBanner .navLeft { margin-top:4px; }
 
-.linkBanner .navRight ul li:first-child { margin-right:0em; }
+.linkBanner .navRight ul li:first-child { margin-right:0em; margin-left:0em; }
 
 .minHeight {
     width:1067px;
