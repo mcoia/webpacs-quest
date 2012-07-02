@@ -17,3 +17,9 @@
 .minHeight {
     width:1067px;
 }
+
+.pageContentColumn {
+    width:100%;
+    margin-left:0;
+    padding:0;
+}
