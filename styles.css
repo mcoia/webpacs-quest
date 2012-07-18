@@ -133,6 +133,8 @@ a:hover  { color: #7C14B8; }
 #accessibleForm ul { margin-left:10px; margin-top:0px; padding-left:15px; }
 .accessibleAddInfo { position:absolute; left:-10000px; top:auto; width:1px; height:1px; overflow:hidden; } /*Include in screenreader but not visible*/
 
+.additionalCopies .bibItemsEntry td { text-align:left; }
+
 .formButtonArea { margin:12px 0 0 15px; }
 .formButtonArea a, .requestMultiPatform center a, .mylistsSavePage a { text-decoration:none; }
 .formButtonArea input { margin:5px 0; }
