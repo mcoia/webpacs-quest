@@ -55,17 +55,43 @@ if (document.body){document.body.className = "bodybg";}
 
 <div class="navLeft">
 <ul>
-<li><a href="/search">New Search</li>
+<li><a href="http://www.moval.edu/library/index.php">Library Home</a></li>
 <li><a href="/patroninfo">My Library Account</a></li>
-<li><a href="/help">Help</a></li>
+<li><a href="/search">New Search</a></li>
 <li><a href="/search/b">Course Reserves</a></li>
+<li><a href="/help">Help</a></li>
 </ul>
 </div>
 <div class="navRight">
 <ul>
-<li><a href="http://www.moval.edu/library/index.php">Missouri Valley College Library</a></li>
 <li><a href="/">Quest</a></li>
 <li><a href="http://searchmobius.org">MOBIUS</a></li>
+<script language="JavaScript"> 
+<!--
+function GotoURL() { 
+//top.location.href = dl.specializedSearch.options[dl.specializedSearch.selectedIndex].value;
+window.location.assign(document.getElementById("specializedSearch").value);
+return false;
+} 
+// -->
+</script>
+
+<li>
+<select name="specializedSearch" id="specializedSearch">
+<option selected="selected" value=" ">(More Searches)</option>
+<option value="/search/X">Advanced Search</option>
+<option value="/search/a">Author</option>
+<option value="/search/t">Title</option>
+<option value="/search/s">Journal Title</option>
+<option value="/search/n">Numbers Search</option>
+<option value="/search/d">Subject (LC)</option>
+<option value="/search/m">Children's Subject</option>
+<option value="/search/l">Genre</option>
+<option value="/search/q">Author and Title</option>
+<option value="/search/"b">Course Reserves</option>
+</select>
+<input type="image" src="/screens/ico_go_brown.png" class="searchNavBut" value="Go" onclick="GotoURL();" >
+</li>
 </ul>	
 
 </div>
@@ -75,34 +101,6 @@ if (document.body){document.body.className = "bodybg";}
 
 <div class="clear"></div>
 
-
-<div class="pageNavColumn"><!-- nav menu column-->
-
-<h1 class="navHeader">Search Options</h1>
-
-<ul id="rightCol">
-<li><a href="/search/X">Advanced Search</a></li>
-<li><a href="/search/a">Author</a></li>
-<li><a href="/search/t">Title</a></li>
-<li><a href="/search/s">Journals, Magazines, Newspapers</a></li>
-<li><a href="#">Numbers</a>
-			<ul>
-				<li><a href="/search/c">Library of Congress (LC) Call Number</a></li>
-				<li><a href="/search/e">Dewey Call Number</a></li>
-                                <li><a href="/search/f">Local Call Number</a></li>
-                                <li><a href="/search/g">Government Document Call Number</a></li>
-                                <li><a href="/search/i">ISBN, ISSN, Music, Etc., Number</a></li>
-                                <li><a href="/search/o">OCLC Number</a></li>
-			</ul>
-</li>
-<li><a href="/search/d">Subject (LC)</a></li>
-<li><a href="/search/m">Children's Subject</a></li>
-<li><a href="/search/l">Genre</a></li>
-<li><a href="/search/q">Author and Title</a></li>
-<li><a href="/search/b">Course Reserves</a></li>
-</ul>
-        
-</div>
 <div class="pageContentColumn"><!-- content container -->
 <a name="content" id="content"></a>
 <!--end toplogo.html-->
