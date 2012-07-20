@@ -6,6 +6,7 @@
 <div id="bibDisplayBody">
 <div class="navigationRowRecord">
 <!--{navrow}-->
+<!--{innreach}-->
 </div>
 <div id="bibDisplayContent">
 <div class="bibSearch">
@@ -26,27 +27,6 @@
 <div class="libraryh3lp" jid="refworker@chat.libraryh3lp.com"
 style="display: none;">
   <iframe src="http://libraryh3lp.com/chat/refworker@chat.libraryh3lp.com?skin=15241&sounds=true&identity=Reference+Desk" frameborder="1"></iframe>
-</div>
-
-<div class="bibResourceSidebar">
-<!--{ifhasresourcetable}-->
-<!--{resourcetable}-->
-<!--{xif}-->
-
-<div class="bibResourceTableHeader">Resources</div>
-  
-<!--Optional INNReach resources.-->
-<!--{innreach}-->
-<!--{relsearch}-->
-<a href="/ftlists"><span class="button"><img src="/screens/ico_list.png" alt=""><span class="buttonText">Featured Lists</span></span></a>
-<a href="http://scholar.google.com"><span class="button"><img src="/screens/ico_google.png" alt=""><span class="buttonText">Google Scholar</span></span></a>
-<div id="googlebooks" class="button" name="googlebooks"></div>
-      <form name="search" method="GET" action="http://ucmo.summon.serialssolutions.com/search">
-
-              <input size="13" name="s.q">
-
-              <input type="submit" class="summonButton" value="Central Search"/>
-      </form>
 </div>
 
 </div>
@@ -179,49 +159,4 @@ style="display: none;">
        }
 
     </script>
-<script type='text/javascript'> 
-    var ProcessResults = function(bookInfo) {
-        var buttonImg = "<img src='/screens/googlebutton.gif' alt='Google Preview'>"
-        var textGBS = "";
-        for (ISBN in bookInfo) {
-            var b = bookInfo[ISBN];
-            var bookJacket =  "<img src='" + b.thumbnail_url + "&zoom=1'>";
-            //form the text of Google Book contents
-            if (b && (b.preview == "full")) {
-                textGBS = "<p>Full Text</p>";
-                //"Google Book Search";
-                document.getElementById("googlebooks").innerHTML = "<a href='" + b.preview_url + "'>" + buttonImg + "</a>"
-            }
-            else if (b && (b.preview == "partial")) {
-                textGBS = "<p>Limited Preview</p>"
-                //"Preview at Google Book Search";
-                document.getElementById("googlebooks").innerHTML = "<a href='" + b.preview_url + "'>" + buttonImg + "</a>"
-            }
-            else if (b && (b.preview == "noview")) {
-                //"Preview at Google Book Search";
-                if (b.thumbnail_url != undefined){
-                document.getElementById("googlebooks").innerHTML = "<a href='" + b.preview_url + "'>" + buttonImg + "</a>"
-                }
-            }
-            else {
-                //document.getElementById("googlebooks").innerHTML = "None available.";
-            }
-    }
-}
-</script>
-<script type='text/javascript'>
-       
-var ISBN = $(".bibInfoLabel:contains('ISBN')").siblings(".bibInfoData").text().replace(/[^0123456789]/g,"")
-
-var cburl = "http://books.google.com/books";
-// Retrieve the info for these bibkeys
-var api_url = cburl + "?jscmd=viewapi&bibkeys=ISBN:" + ISBN;
-var s = document.createElement("script");
-s.setAttribute("type", "text/javascript");
-//alert("searching for: " + ISBN);
-s.setAttribute("src", "http://books.google.com/books?jscmd=viewapi&bibkeys=ISBN:" + ISBN + "&callback=ProcessResults");
-document.documentElement.firstChild.appendChild(s);
-//alert (api_url);
-
-</script>
 <!--{botlogo}-->
