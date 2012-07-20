@@ -7,6 +7,8 @@
     margin-bottom:1.5em;
 }
 
+.libraryh3lp iframe { border:1px inset black; height:300px; width:210px; }
+
 .linkBanner {
     background-color:#990000;
     padding:.5em 0 .8em;
@@ -16,12 +18,8 @@
 
 .linkBanner .navRight ul li:first-child { margin-right:0em; margin-left:0em; }
 
+.mainSearch { margin-bottom:40px; }
+
 .minHeight {
     width:1067px;
-}
-
-.pageContentColumn {
-    width:100%;
-    margin-left:0;
-    padding:0;
 }
