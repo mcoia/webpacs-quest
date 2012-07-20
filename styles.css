@@ -602,6 +602,8 @@ div .bibResourceSidebar { display:none; }
 
 .form3PartBelow { background:#FFFFFF url('tile_vgradient.jpg') repeat-x scroll left top; clear:both; margin-top:1em; }
 
+.formLogin { margin-bottom:3em; }
+
 .formLogin label { display:block; padding-top:3px; }
 
 .formLeft { float:left; padding:10px 10px 10px; }
@@ -719,6 +721,8 @@ div .bibResourceSidebar { display:none; }
 .loginForm { background:#F2F2F2; float:right; margin:15px; width:40%; }
 
 .loginForm fieldset { border: 3px solid #E7E7E7; color:#444444; margin:0 6px 0 6px; }
+
+#loginHelpLink { margin-left:.5em; font-style:normal; }
 
 .mainMenuContent { margin-top:45px; text-align:left; }
 
