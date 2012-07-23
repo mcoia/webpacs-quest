@@ -23,3 +23,7 @@
 .minHeight {
     width:1067px;
 }
+
+.topLogo img {
+    display:block; 
+}
