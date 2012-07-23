@@ -1,11 +1,3 @@
-.clusterLogoLeft {
-    right:196px;
-}
-
-.clusterLogoRight {
-    right:44px;
-}
-
 .linkBanner {
     background-color:#402C61;
 }
@@ -14,15 +6,11 @@
 
 .linkBanner .navRight ul li:first-child { margin-right:0em; margin-left:0em; }
 
-.navRight li:nth-child(2) {
-    margin-right:100px;
+.minHeight {
+    width:1028px;
 }
 
 .pageContentColumn {
     width:100%;
     padding:0;
-}
-
-.topLogoImage {
-    padding: 17px;
 }
