@@ -1,0 +1,29 @@
+.bibDisplayContentMain {
+    width: 61.5%;
+}
+
+.bibDisplayPermLink {
+    float:left;
+    margin-bottom:1.5em;
+}
+
+.libraryh3lp iframe { border:1px inset black; height:300px; width:210px; }
+
+.linkBanner {
+    background-color:#990000;
+    padding:.5em 0 .8em;
+}
+
+.linkBanner .navLeft { margin-top:4px; }
+
+.linkBanner .navRight ul li:first-child { margin-right:0em; margin-left:0em; }
+
+.mainSearch { margin-bottom:40px; }
+
+.minHeight {
+    width:1067px;
+}
+
+.topLogo img {
+    display:block; 
+}
