@@ -1,148 +1,78 @@
-<HTML>
-<HEAD>
-	<TITLE>Quest/ Quest Catalog</TITLE>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<!--	<LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="/screens/quest_styles.css">	-->
-	<LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="quest_styles.css">	
-	<meta http-equiv="Refresh" CONTENT="300;URL=/search----->">
-</HEAD>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<!-- Rel 2009B Example Set -->
+<!-- This File Last Changed: 23 Mar 2010 -->
+<head>
+<title>Quest Catalog - Word Search</title>
+<script language="JavaScript">
+<!-- Hide the JS
+startTimeout(600000, "/");
+// -->
 
-<body style="margin-left: 0px; padding-left: 0px; margin-top: 10px; padding-top: 0px; margin-right: 0px; padding-right: 0px;"
-		onLoad="document.forms[0].SEARCH.focus(); document.forms[0].SEARCH.select();">
-<br/>
-<!-- begin toplogo.html file -->
-<table align="center" border="0" cellpadding="0" cellspacing="0" width="800">
-  <tbody>
-    <tr>
-      <td width="600" height="22" align="left" style="font-weight: bold"> <a href="http://searchmobius.org/search" style="text-decoration: none;">MOBIUS</a> &gt; <a href="http://searchmobius.org/search" style="text-decoration: none;">Quest</a></td>
-      <td width="200" rowspan="2" valign="top"><div align="center"><a href="http://searchmobius.org/search"><img src="screens/quest_small.png" alt=" Quest home " border="0" height="60" width="124"></a></div></td>
-    </tr>   
-  </tbody>
-</table>
+</script>
+<noscript>
+<meta http-equiv="Refresh" content="600;URL=/" />
+</noscript>
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
+<link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
+</head>
+<body>
+<!--{toplogo}-->
+<div class="pageContentInner">
+
+<h1 class="pageHeader">Word Search</h1>
+
+<div id="accessibleForm" class="form2Part">
+<div class="formLeft">
+<form method="get">
+<fieldset>
+<!-- Optional legend:
+<legend>Type the word you want to find, then press the Enter key or click Submit.</legend>
+-->
+<div class="formEntryArea">
+<span class="formLabel">
+<label for="SEARCH">Search for:</label>
+</span>
+<!--{search}-->
+</div>
+<div class="formEntryArea formScopeSearch">
+<span class="formLabel">
+<label for="searchscope">Search in the:</label>
+</span>
+<!--{scope}-->
+</div>
+
+<div class="formButtonArea">
+<!--{submit}-->
+</div>
+</fieldset>
+</form>
+</div><!--formLeft -->
+
+<div class="formRight">
+<p>The catalog will search the library's records, looking for the words that you type in various fields, such as title, contents notes, corporate names, etc.</p>
+<ul>
+<li>You may use the Boolean operators <strong>AND</strong>, <strong>OR</strong> and <strong>NOT</strong></li>
+<li>You may also truncate words with an asterisk <strong>*</strong>
 <br>
-<br>
-<!-- end toplogo.html file -->
+For example:
+<ul class="unpadded srchhelpList">
+<li>Soviet <strong>and</strong> Russian</li>
+<li>Soviet Union <strong>or</strong> Russia</li>
+<li>Mexico <strong>not</strong> New</li>
+<li>(games <strong>or</strong> toys) and (child<strong>*</strong> <strong>or</strong> infant<strong>*</strong>)</li>
+</ul>
+</li>
+</ul>
+</div><!--formRight -->
 
+</div><!--form2Part -->
+</div><!-- pageContentInner -->
 
-<!-- begin botlogo.html file -->
-<!-- Silver Version, last changed: 9 April, 2004 -->
-<!--Begin the bottom logo table-->
-<!--TIP: this data should match the data used by the BOTLOGO web option-->
-<br>
-
-<!-- tabs bit -->
-<table align="center" cellpadding="0" cellspacing="0" width="800"><tr><td>
-		<ul id="tabnav">
-			<li><a href="/search~" class="active"><span>Search Catalog</span></a></li>
-			<li><a href="/search~/r"><span>Course Reserves</span></a></li>
-			<li><a href="/patroninfo"><span>&nbsp;&nbsp;&nbsp;My Account&nbsp;&nbsp;&nbsp;</span></a></li>
-			<li><a href="http://searchmobius.org/search"><span>Mobius Catalog</span></a></li>
-			<li><a href="/screens/help.htm"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Help&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a></li>			
-		</ul>
-</td></tr></table>
-<!-- end tabs -->
-  <table bgcolor="66498B" height="12" width="800" align="center">
-	<tr>
-	    <td width="133.3333" class="subtab">Word</td>
-		<td width="133.3333" class="footer"><a href="srchhelp_t.html" class="specialLink">Title</a></td>
-		<td width="133.3333" class="footer"><a href="srchhelp_a.html" class="specialLink">Author</a></td>
-		<td width="133.3333" class="footer"><a href="srchhelp_s.html" class="specialLink">Journal Title</a></td>
-		<td width="133.3333" class="footer"><a href="srchhelp_d.html" class="specialLink">Subject</a></td>
-		<td width="133.3333" class="footer"><a href="srchhelp_n.html" class="specialLink">Numbers</a></td>						
-	</tr>
-  </table>
-  
-	  <table style="margin-top: 30px;" align="center" border="0" cellpadding="0" cellspacing="0" width="700">
-	<tbody><tr>
-	<td>
-	
-	<!--Beginning main page content-->
-	<div class="moss"><span class="greentextsmall"><strong>Word Search:</strong></span></div>
-	<div>
-	
-	<form method="get"  ACTION="/search/t">
-	<table>
-		<tr>
-			<td><input name="SEARCH" size="48" value="" type="text"></td>
-			<td>
-				<input id="iiiFormHandle_1" type="hidden">
-				<input type="image" src="screens/b_submit.gif" alt="Submit Form"></input></a>
-			</td>
-		</tr>
-	</table>
-	</form>
-	</div>
-	
-	<br/>
-	<div class="content">
-  <TABLE CELLPADDING=3 CELLSPACING=2 WIDTH="800" align="center" border="2">
-        <TR> 
-            <TH WIDTH=10%>&nbsp;</TH>
-            <TH WIDTH=40%>Type in Words to search: </TH>
-            <TH WIDTH=50%>EXAMPLES:</TH>
-        </TR>
-        <TR> 
-            <TD WIDTH=100><b>ADJACENCY</b></TD>
-            <TD>The order of words matters. Multiple words 
-                are searched together as one phrase. For different results, use 
-                <i><b>and</b></i> between each word or phrase.</TD>
-            <TD> water resources<br>
-                colorado<b> and</b> geology<br>
-                electronic serial<b> and</b> physics</TD>
-        <TR> 
-            <TD WIDTH=100><b>TRUNCATION</b></TD>
-            <TD> Words may be internally or right-hand truncated 
-                using an asterisk *. Use double asterisks ** for more than 6 characters. 
-            </TD>
-            <TD> wom*n and librar*<br>
-                math**</TD>
-        <TR> 
-            <TD WIDTH=100><b>OPERATORS</b></TD>
-            <TD> Use <i><b>and</b></i> or <i><b>or</b></i> to 
-                specify multiple words in any field, any order. Use <i><b>and 
-                not</b></i> to exclude words. Use parentheses to group words when 
-                using multiple operators. </TD>
-            <TD> cat <b>or</b> feline <br>
-                (alaska <b>or</b> canada)<b> and</b> (recreation<b> and not</b> 
-                hiking) </TD>
-        <TR> 
-            <TD WIDTH=100><b>PROXIMITY</b></TD>
-            <TD>Use <i><b>near</b></i> to specify words close 
-                to each other, in any order. Use <i><b>within #</b></i> to specify 
-                words within a set range of each other. Symbol # may stand for 
-                any number. </TD>
-            <TD> California <b>near</b> university<br>
-                colorado<b> within 12 </b>wyoming</TD>
-        <TR> 
-            <TD WIDTH=100><b>FIELDS</b></TD>
-            <TD> Specify fields to search, using field abbreviation. 
-                Fields available for this database are <b>a:</b> (author),<b> 
-                t:</b> (title),<b> s:</b> (subject), and<b> n:</b> (additional 
-                keywords.) Subjects are NOT cross-referenced. </TD>
-            <TD><b> a:</b>twain <b>and t:</b>huck<br>
-                (<b>a:</b>frost <b> or a:</b>whitman) <b>and s:</b>poet* <br>
-                <b>t:</b>medicine <b>and (n:</b>research<b> or s:</b>information)</TD>
-        </TR>
-    </TABLE>
-	</div>
-	
-	<!--End of main page content-->
-	</td>
-	</tr>
-	</tbody></table>
-	<br/>
-	<br/>
-	<br/>
-<table bgcolor="#66498B" height="12" width="800" align="center">
-	<tr>
-		<td width="175" class="footer"><a href="/search~S1" class="specialLink">Central Methodist University</a></td>
-		<td width="175" class="footer"><div align="center"><a href="/search~S3" class="specialLink">Missouri Valley College</a></div></td>
-		<td width="175" class="footer"><div align="center"><a href="/search~S4" class="specialLink">State Fair Community College</a></div></td>
-		<td width="175" class="footer"><div align="right"><a href="/search~S2" class="specialLink">University of Central Missouri</a></div></td>
-	</tr>
-</table>
-<!--End the bottom logo table-->
-<!-- end botlogo.html file -->
-
+<!--{botlogo}-->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].SEARCH.focus(); }
+catch(err) {}
+//--><!]]></script>
 </body>
 </html>

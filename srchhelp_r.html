@@ -1,119 +1,65 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><!-- Silver Version, last changed: 28 June, 2004 -->
-
-<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
-<LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="quest_styles.css">	
-</head>
-
-<body style="margin-left: 0px; padding-left: 0px; margin-top: 10px; padding-top: 0px; margin-right: 0px; padding-right: 0px;"
-     onLoad="document.forms[0].SEARCH.focus(); document.forms[0].SEARCH.select();">
-<br/>
-<!-- begin toplogo.html file -->
-<!--{toplogo}-->
-<br>
-<br>
-<!-- end toplogo.html file -->
-<!--{patron}-->
-<!--{logout}-->
-<!-- begin botlogo.html file -->
-<!-- Silver Version, last changed: 9 April, 2004 -->
-<!--Begin the bottom logo table-->
-<!--TIP: this data should match the data used by the BOTLOGO web option-->
-<br>
-
-<div id="content">
-	<!-- tabs bit -->
-
-<table align="center" cellpadding="0" cellspacing="0" width="800"><tr><td style="border-bottom:10px solid #66498B; ">
-		<ul id="tabnav">
-			<li><a href="/search~"><span>Search Catalog</span></a></li>
-			<li><a href="/search~/r" class="active"><span>Course Reserves</span></a></li>
-			<li><a href="/patroninfo"><span>&nbsp;&nbsp;&nbsp;My Account&nbsp;&nbsp;&nbsp;</span></a></li>
-			<li><a href="http://searchmobius.org/search"><span>Mobius Catalog</span></a></li>
-			<li><a href="/screens/help.htm"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Help&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a></li>			
-		</ul>
-</td></tr></table>
-<!-- end tabs -->
-		
-	<br/>
-		
-	<table align="center" cellpadding="2" cellspacing="2" width="700">
-	<tbody><tr>
-	<td colspan="3" class="text">
-	<!--Beginning main page content-->
-	
-	<div style="margin-bottom: 50px;">
-	<form method="get" id="search" name="search" action="/search/r">
-	<table border="0" cellpadding="2" cellspacing="0" width="70%">
-	<tbody><tr>
-	<td align="right" nowrap="nowrap" width="200"><label for="label2">Course name:&nbsp; </label></td>
-	<td nowrap="nowrap">
-	<input name="SEARCH" size="48" value="" type="text">
-	<script language="javascript">
-	function iiiDoSubmit_1() {
-		var name = "iiiFormHandle_1";
-		if (document.getElementById)
-			obj = document.getElementById(name);
-		else if (document.all)
-			obj = document.all[name];
-		else if (document.layers)
-			obj = document.layers[name];
-		obj.form.submit();
-	}
-	if (document.layers)
-	  document.captureEvents(Event.KEYDOWN);
-	document.onkeydown =
-	  function (evt) {
-		var keyCode = evt ? (evt.which ? evt.which : evt.keyCode) : event.keyCode;
-		if (keyCode == 13)
-		  iiiDoSubmit_1(); };
-	</script></td>
-	<td><input id="iiiFormHandle_1" type="hidden">
-      <input type="image" src="/screens/b_submit.gif" alt="Submit Form"></td>
-	</tr>
-	</tbody></table>
-	</form>
-	
-	<form method="get" id="search2" name="search2" action="/search/p">
-	<table align="left" border="0" cellpadding="2" cellspacing="0" width="70%">
-	<tbody><tr>
-	<td align="right" nowrap="nowrap" width="200"><label for="label3"><strong>or</strong> Instructor's last&nbsp;name:&nbsp;</label></td>
-	<td nowrap="nowrap">
-	<input name="SEARCH" size="48" value="" type="text">
-	</td>
-	<td><input id="iiiFormHandle_2" type="hidden">
-	  <input type="image" src="/screens/b_submit.gif" alt="Submit Form"></td>
-	</tr>
-	</tbody></table>
-	</form>
-	</div>
-	
-	<br><br>
-	
-	<div class="content">
-	<p>Type the <strong>Course Name or Number</strong> you want. Examples: <em> Biology 100A</em>, <em> Chemistry 251</em>, <em> Organic Chemistry I</em>, <em> History 101C</em>, <em> Western Civilization</em>.</p>
-	
-	<p>OR, type the <strong>Name</strong> of the Professor or Instructor you want, last name first.  Examples: <em>Ogden</em> or <em> Ogden, Linda</em>; <em> Ruehlmann</em> or <em> Ruehlmann, Thomas</em>.</p>
-	</div>
-	
-	<br>
-	
-	<!--End of main page content-->
-	</td>
-	</tr>
-	</tbody></table>	
-
-</div>
- 
-<table bgcolor="#66498B" height="12" width="800" align="center">
-	<tr>
-		<td width="175" class="footer"><a href="/search~S1" class="specialLink">Central Methodist University</a></td>
-		<td width="175" class="footer"><div align="center"><a href="/search~S3" class="specialLink">Missouri Valley College</a></div></td>
-		<td width="175" class="footer"><div align="center"><a href="/search~S4" class="specialLink">State Fair Community College</a></div></td>
-		<td width="175" class="footer"><div align="right"><a href="/search~S2" class="specialLink">University of Central Missouri</a></div></td>
-	</tr>
-</table>
-<!--End the bottom logo table-->
-<!-- end botlogo.html file -->
-
-</body>
-</html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<!-- Rel 2009B Example Set -->
+<!-- This File Last Changed: 23 Mar 2010 -->
+<head>
+<title>Quest Catalog - Course Search</title>
+<script language="JavaScript">
+<!-- Hide the JS
+startTimeout(600000, "/");
+// -->
+
+</script>
+<noscript>
+<meta http-equiv="Refresh" content="600;URL=/" />
+</noscript>
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
+<link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
+</head>
+<body>
+<!--{toplogo}-->
+<div class="pageContentInner">
+
+<h1 class="pageHeader">Course Search</h1>
+
+<div id="accessibleForm" class="form2Part">
+<div class="formLeft">
+<form method="get">
+<fieldset>
+<!-- Optional legend:
+<legend>Type the course name or number you want to find, then press the Enter key or click Submit.</legend>
+-->
+
+<div class="formEntryArea">
+<span class="formLabel">
+<label for="SEARCH">Search for:</label>
+</span>
+<!--{search}-->
+</div>
+
+<div class="formButtonArea">
+<!--{submit}-->
+</div>
+
+</fieldset>
+</form>
+</div><!--formLeft -->
+<div class="formRight">
+<p>Type as much or as little of the course name or course number as you wish. For example:</p>
+<ul>
+<li>MUS 100</li>
+<li>music appreciation</li>
+<li>Zoology 201</li>
+<li>comparative vertebrate anatomy</li>
+</ul>
+</div><!--formRight -->
+</div><!--form2Part -->
+</div><!--pageContentInner -->
+
+<!--{botlogo}-->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].SEARCH.focus(); }
+catch(err) {}
+//--><!]]></script>
+</body>
+</html>
