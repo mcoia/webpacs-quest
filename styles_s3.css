@@ -1,3 +1,7 @@
+.bibDisplayContentMain {
+    width: 60%;
+}
+
 .linkBanner {
     background-color:#402C61;
 }
@@ -11,9 +15,13 @@
 }
 
 .pageContentColumn {
-    width:100%;
-    padding:0;
+    width:72%;
 }
+
+.pageNavColumn {
+    width:18%
+}
+
 
 .topLogo img {
     display:block; 
