@@ -1,0 +1,26 @@
+div .bibResourceSidebar {
+    display:block;
+}
+
+.bibResourceSidebar {
+    width:208px;
+}
+
+.pageContentColumn {
+    width:100%;
+    padding:0;
+}
+
+.pageNavColumn{
+    display:none;
+}
+
+
+.rightBib {
+    float:right;
+    width:210px;
+    padding-right:15px;
+}
+
+
+
