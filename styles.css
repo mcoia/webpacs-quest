@@ -208,6 +208,29 @@ a:hover  { color: #7C14B8; }
 
 .bibDisplayJacket  { float:left; margin:0 0 1em 0; display:inline; width:150px; text-align:center; }
 
+.syn_title {
+    color: #767C70;
+    font-weight: bold;
+    width: 13.5%;
+    text-align:right;
+    clear:both;
+    margin-right:.8em;
+}
+
+.syn_body {
+    width:70%;
+}
+
+.syn_title, .syn_body {
+    font-size: .9em;
+    float: left;
+    margin-top:.5em;
+}
+
+.syn_body p {
+    margin:0;
+}
+
 .bibLinks th { text-align:center; }
 
 .bibMedia  { margin-left:auto; margin-right:auto; }

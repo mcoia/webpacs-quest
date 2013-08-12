@@ -419,7 +419,8 @@ FEATURED_LIST=15,44,67|FEATURED LISTS|CATEGORY|# of Titles
 
 # Content Linking and Other Resources
 # If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.
-BIBIMAGE=http://www.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=ucmmob&showCaptionBelow=t|i|http://www.syndetics.com/index.aspx?isbn=%s/index.html&client=ucmmob&type=rn12
+BIBIMAGE=http://www.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=ucmmob|I|http://www.syndetics.com/index.aspx?isbn=%s/LC.GIF&client=ucmmob
+#BIBIMAGE=http://www.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=ucmmob&showCaptionBelow=t|i|http://www.syndetics.com/index.aspx?isbn=%s/index.html&client=ucmmob&type=rn12
 BIBIMAGE_TEXT=Book Cover
 BUT_ENCYCPD=/screens/encycpd.gif
 BUT_FULL_TEXT=/screens/full_text.gif
