@@ -12,7 +12,9 @@
 <script type="text/javascript">
 $(document).ready(function () {
 	$("span:contains(WebPAC PRO)").hide(); //Hide the iii footer
-
+if ( $('.rightColumn ').css('display') == 'none' ) {
+    $('#sideChat').html('') 
+  }
 	//$('#searchtype').change(function(){
     	//$("#exampleText").load("/screens/" + this.value + ".inc");
 	//});
@@ -103,16 +105,15 @@ return false;
 
 <div class="clear"></div>
 
-<div class="pageNavColumn">
 
 
-
-<div class="libraryh3lp" jid="jckl-refdesk@chat.libraryh3lp.com">
-  <iframe style="width: 320px; height: 300px; border: 2px inset black;" src="https://us.libraryh3lp.com/chat/jckl-refdesk@chat.libraryh3lp.com?skin=20622&amp;identity=JCKL+Librarian&amp;sounds=true" frameborder="1"></iframe>
+<div class="rightColumn">
+<div class="chat-widget" id="sideChat">
+<div class="needs-js">The chat widget was unable to load. Try refreshing
+the page, and make sure Javascript is enabled in your browser.</div>
+</div>
 </div>
 
-
-</div>
 
 <div class="pageContentColumn"><!-- content container -->
 <a name="content" id="content"></a>
