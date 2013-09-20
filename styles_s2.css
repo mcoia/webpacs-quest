@@ -7,8 +7,6 @@
     margin-bottom:1.5em;
 }
 
-.libraryh3lp iframe { border:1px inset black; height:300px; width:210px; }
-
 .linkBanner {
     background-color:#990000;
     padding:.5em 0 .8em;
@@ -26,4 +24,13 @@
 
 .topLogo img {
     display:block; 
+}
+
+.rightColumn {
+	background-color: #F3F3F3;
+    border: 1px solid #D3D3D3;
+    float: right;
+    margin: 2% 1.75%;
+    padding: 0.5%;
+    width: 19%;
 }

@@ -12,7 +12,9 @@
 <script type="text/javascript">
 $(document).ready(function () {
 	$("span:contains(WebPAC PRO)").hide(); //Hide the iii footer
-
+if ( $('.rightColumn ').css('display') == 'none' ) {
+    $('#sideChat').html('') 
+  }
 	//$('#searchtype').change(function(){
     	//$("#exampleText").load("/screens/" + this.value + ".inc");
 	//});
@@ -95,7 +97,7 @@ return false;
 <option value="/search/m">Children's Subject</option>
 <option value="/search/l">Genre</option>
 <option value="/search/q">Author and Title</option>
-<option value="/search/"b">Course Reserves</option>
+<option value="/search/b">Course Reserves</option>
 </select>
 <input type="image" src="/screens/ico_go_brown.png" class="searchNavBut" value="Go" onclick="GotoURL();" >
 </li>
@@ -110,13 +112,11 @@ return false;
 
 <div class="clear"></div>
 
-<div class="pageNavColumn">
-
-<div class="libraryh3lp" jid="refworker@chat.libraryh3lp.com"
-style="display: none;">
-  <iframe src="http://libraryh3lp.com/chat/refworker@chat.libraryh3lp.com?skin=15241&sounds=true&identity=Reference+Desk" frameborder="1"></iframe>
+<div class="rightColumn">
+<div class="chat-widget" id="sideChat">
+<div class="needs-js">The chat widget was unable to load. Try refreshing
+the page, and make sure Javascript is enabled in your browser.</div>
 </div>
-
 </div>
 
 <div class="pageContentColumn"><!-- content container -->
