@@ -16,6 +16,11 @@ $(document).ready(function () {
 if ( $('.rightColumn ').css('display') == 'none' ) {
     $('#sideChat').html('') 
   }
+  $("#searcharg").click(function(){
+
+$(this).select();
+
+}).attr("type","search");
 	//$('#searchtype').change(function(){
     	//$("#exampleText").load("/screens/" + this.value + ".inc");
 	//});
