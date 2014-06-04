@@ -12,15 +12,16 @@
 <script type="text/javascript" src='/screens/qr.js'> </script> 
 <script type="text/javascript">
 $(document).ready(function () {
-	$("span:contains(WebPAC PRO)").hide(); //Hide the iii footer
-if ( $('.rightColumn ').css('display') == 'none' ) {
-    $('#sideChat').html('') 
-  }
-  $("#searcharg").click(function(){
+    $("#searcharg").click(function(){
 
 $(this).select();
 
 }).attr("type","search");
+	$("span:contains(WebPAC PRO)").hide(); //Hide the iii footer
+if ( $('.rightColumn ').css('display') == 'none' ) {
+    $('#sideChat').html('') 
+  }
+
 	//$('#searchtype').change(function(){
     	//$("#exampleText").load("/screens/" + this.value + ".inc");
 	//});
