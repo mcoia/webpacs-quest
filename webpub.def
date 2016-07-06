@@ -93,34 +93,34 @@ b|z||-7|Cont'd By||b|
 b|q||-7|Related To||b|
 b|d||-2346|LC Subject||b|
 b|m||-2346|Child Subj||b|
-b|j|600.[2-8]|-2346|Keywords||b|
-b|j|610.[2-8]|-2346|Keywords||b|
-b|j|611.[2-8]|-2346|Keywords||b|
-b|j|630.[2-8]|-2346|Keywords||b|
-b|j|650.[2-8]|-2346|Keywords||b|
-b|j|651.[2-8]|-2346|Keywords||b|
-b|j|653|-2346|Keywords||b|
-b|j|654|-2346|Keywords||b|
-b|j|655.7|-2346|Genre/Form||b|
-b|j|655|-2346|Keywords||b|
-b|j|656|-2346|Keywords||b|
-b|j|657|-2346|Keywords||b|
-b|j|658|-2346|Keywords||b|
-b|j|752|-2346|Place||b|
-b|j|753|-2346|Keywords||b|
-b|j|754|-2346|Keywords||b|
+b|j|600.[2-8]|-02346|Keywords||b|
+b|j|610.[2-8]|-02346|Keywords||b|
+b|j|611.[2-8]|-02346|Keywords||b|
+b|j|630.[2-8]|-02346|Keywords||b|
+b|j|650.[2-8]|-02346|Keywords||b|
+b|j|651.[2-8]|-02346|Keywords||b|
+b|j|653|-02346|Keywords||b|
+b|j|654|-02346|Keywords||b|
+b|j|655.7|-02346|Genre/Form||b|
+b|j|655|-02346|Keywords||b|
+b|j|656|-02346|Keywords||b|
+b|j|657|-02346|Keywords||b|
+b|j|658|-02346|Keywords||b|
+b|j|752|-02346|Place||b|
+b|j|753|-02346|Keywords||b|
+b|j|754|-02346|Keywords||b|
 b|j|755|-2346|Phys Charac||b|
 b|j||-2346|Add Keyword||b|
-b|b|700.2|-345|Includes||b|
-b|b|700|-345|Other Author||b|
-b|b|710.2|-345|Includes||b|
-b|b|710|-345|Other Author||b|
-b|b|711.2|-345|Includes||b|
-b|b|711|-345|Other Author||b|
-b|b|730.2|-345|Includes||b|
+b|b|700.2|-0345|Includes||b|
+b|b|700|-0345|Other Author||b|
+b|b|710.2|-0345|Includes||b|
+b|b|710|-0345|Other Author||b|
+b|b|711.2|-0345|Includes||b|
+b|b|711|-0345|Other Author||b|
+b|b|730.2|-0345|Includes||b|
 b|b|740.2|-345|Includes||b|
 b|b||-345|Add Author||b|
-b|u|130|-6789|Uniform Title||b|
+b|u|130|-06789|Uniform Title||b|
 b|u|210|-6789|Other Title||b|
 b|u|212|-6789|Other Title||b|
 b|u|229|-6789|||b|
@@ -138,7 +138,7 @@ b|u|24700|-6789|Other Title||b|
 b|u|24701|-6789|||b|
 b|u|24710|-6789|Other Title||b|
 b|u|24711|-6789|||b|
-b|u|730|-6789|Other Title||b|
+b|u|730|-06789|Other Title||b|
 b|u|740|-6789|Other Title||b|
 b|u||-6789|Add Title||b|
 b|f|970|-6|||b|
