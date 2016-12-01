@@ -29,9 +29,13 @@ $(this).select();
 
 }).attr("type","search");
 	$("span:contains(WebPAC PRO)").hide(); //Hide the iii footer
-if ( $('.rightColumn ').css('display') == 'none' ) {
-    $('#sideChat').html('') 
-  }
+
+if ( $('.rightColumn').css('display') == 'none' ) {
+   $('#sideChat').html('') 
+ }
+
+
+ 
 	//$('#searchtype').change(function(){
     	//$("#exampleText").load("/screens/" + this.value + ".inc");
 	//});
@@ -130,6 +134,7 @@ return false;
 		<script src="//v2.libanswers.com/load_chat.php?hash=c93abd5e8053d934df9fbb88eb8a5782"></script>
 	</div>
 </div>
+
 
 
 <div class="pageContentColumn"><!-- content container -->
